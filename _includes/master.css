@@ -1,0 +1,28 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #00030b;
+	color: White;
+}
+a:link {
+	color: Orange;
+}
+a:visited {
+	color: Chocolate;
+}
+a:hover {
+	color: Coral;
+}
+.header-image {
+	border-radius: 50%
+}
+footer {
+	text-align: center;
+	color: white;
+	font-size: .6rem;
+	background-color: Black;
+	width: 100%;
+	margin: auto;
+	padding: 1rem;
+}
