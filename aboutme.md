@@ -1,6 +1,6 @@
 ---
 layout: masterlayout.njk
-title: About
+title: About Me
 ---
 A little introduction to who I am, what I've done, and all that jazz.
 

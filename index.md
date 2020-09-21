@@ -10,7 +10,7 @@ Hello, and welcome to my humble internet home!
 ## Things to Look At
 
 * [Posts]({{site.url}}/posts): Sometimes I write about things!
-* [About Me]({{site.url}}/about): Learn a little bit more about me.
+* [About Me]({{site.url}}/aboutme): Learn a little bit more about me.
 * [Projects]({{site.url}}/projects): Fun things I've worked on, school things I've worked on, even some fun school things I've worked on!
 * [Publications and Presentations]({{site.url}}/pubs): Here's a list of things I've produced for academic purposes
 * [Support]({{site.url}}/support): Here's how you can support me if you like my stuff!
