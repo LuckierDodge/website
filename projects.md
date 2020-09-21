@@ -1,6 +1,6 @@
 ---
 layout: masterlayout.njk
-title: Ryan D. Lewis | Projects
+title: Projects
 ---
 Stuff that I've worked on, by choice (weird, right?).
 

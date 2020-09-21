@@ -1,6 +1,6 @@
 ---
 layout: masterlayout.njk
-title: Ryan D. Lewis | About
+title: About
 ---
 A little introduction to who I am, what I've done, and all that jazz.
 

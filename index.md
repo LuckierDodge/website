@@ -1,6 +1,6 @@
 ---
 layout: "masterlayout.njk"
-title: "🎷Ryan D. Lewis | Home"
+title: "Home"
 image: "/assets/images/profile-pic-icon-192.jpg"
 alt: "Profile photo of Ryan, facing down and to the left, wearing a green baseball cap."
 ---

@@ -5,6 +5,9 @@ body {
 	background-color: #00030b;
 	color: White;
 }
+img {
+	box-shadow: 10px 10px #001010;
+}
 a:link {
 	color: Orange;
 }
@@ -21,8 +24,17 @@ footer {
 	text-align: center;
 	color: white;
 	font-size: .6rem;
-	background-color: Black;
+	background-color: #00030b;
 	width: 100%;
 	margin: auto;
 	padding: 1rem;
+}
+::-moz-selection {
+	background-color: DarkCyan;
+	color: Black;
+}
+
+::selection {
+	background-color: DarkCyan;
+	color: Black;
 }
