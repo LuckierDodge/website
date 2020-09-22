@@ -9,20 +9,18 @@ alt: "Profile photo of Ryan, facing down and to the left, wearing a green baseba
 
 👋 Hello, and welcome to my humble internet home!
 
-## Things to Look At
-
-* [📝 Posts]({{site.url}}/posts): Sometimes I write about things!
-* [🤝 About Me]({{site.url}}/aboutme): Learn a little bit more about me.
-* [💻 Projects]({{site.url}}/projects): Fun things I've worked on, school things I've worked on, even some fun school things I've worked on!
-* [📚 Publications and Presentations]({{site.url}}/pubs): Here's a list of things I've produced for academic purposes
-* [💸 Support]({{site.url}}/support): Here's how you can support me if you like the things I'm working on!
-* TODO: Add anonymized Resume
+### [📝 Posts]({{site.url}}/posts)
+### [🤝 About Me]({{site.url}}/aboutme)
+### [💻 Projects]({{site.url}}/projects)
+### [📚 Publications and Presentations]({{site.url}}/pubs)
+### [💸 Support]({{site.url}}/support)
+### TODO: Add anonymized Resume
 
 ## More Places to Find Me
 
-* [Dev - luckierdodge](https://dev.to/luckierdodge)
-* [Github -@luckierdodge](https://github.com/luckierdodge)
-* [Instagram - @luckierdoge](https://www.instagram.com/luckierdodge/)
-* [Twitter - @RhinoDaDino](https://twitter.com/RhinoDaDino)
-* [LinkedIn - Ryan D. Lewis](https://www.linkedin.com/in/ryan-d-lewis)
-* <a rel="me" href="https://mastodon.online/@luckierdodge">Mastodon - @luckierdodge@mastodon.online</a>
+* [@luckierdodge on Dev](https://dev.to/luckierdodge)
+* [@luckierdodge on GitHub](https://github.com/luckierdodge)
+* [@luckierdoge on Instagram](https://www.instagram.com/luckierdodge/)
+* [@RhinoDaDino on Twitter](https://twitter.com/RhinoDaDino)
+* [Ryan D. Lewis on LinkedIn](https://www.linkedin.com/in/ryan-d-lewis)
+* <a rel="me" href="https://mastodon.online/@luckierdodge">@luckierdodge at Mastodon.Online</a>
