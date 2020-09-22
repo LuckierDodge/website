@@ -14,7 +14,7 @@ alt: "Profile photo of Ryan, facing down and to the left, wearing a green baseba
 ### [💻 Projects]({{site.url}}/projects)
 ### [📚 Publications and Presentations]({{site.url}}/pubs)
 ### [💸 Support]({{site.url}}/support)
-### TODO: Add anonymized Resume
+<!--### TODO: Add anonymized Resume-->
 
 ## More Places to Find Me
 
