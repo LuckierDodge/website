@@ -8,7 +8,7 @@ A little introduction to who I am, what I've done, and all that jazz.
 
 The places I've studied and the pieces of paper I've gotten from it.
 
-* Bachelor's Degree in Computer Science and Computational Mathematics from Northern Illinois University
+* Bachelor's of Science in Computer Science, emphasizing in Computational Software, and Computational Mathematics from Northern Illinois University
 * Currently a Master's Student at NIU studying Computer Science
 
 ## 🏓 Extracurriculars
