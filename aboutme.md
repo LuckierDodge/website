@@ -23,7 +23,7 @@ What I did at school while I wasn't studying.
 
 ## 🔬 Research Career
 
-If you're looking for the publications and presentations I've gotten out of these efforts, [look no further]({{site.url}}/pubs).
+If you're looking for the publications and presentations I've gotten out of these efforts, [look no further](/pubs).
 
 * 2 semesters as a Freshman working on my first research experience in NIU's amazing [Research Rookies](http://www.niu.edu/engagedlearning/undergraduate-research/research-rookies/index.shtml) program. Explored Photogrammetry under [Dr. Michael Papka](http://papka.alcf.anl.gov/) in the [Data, Devices, and Interactions Laboratory (ddiLab)](http://ddilab.cs.niu.edu).
 * Another 2 semesters as a Sophomore in the same lab, now as a Research Rookies Peer Mentor. This time I explored 3D Printing solutions of complex brain structures.
