@@ -49,6 +49,10 @@ footer {
 	list-style-type: none;
 }
 
+.link-capsule li {
+	margin-left: -40px;
+}
+
 .link-capsule a {
 	background-color: #000a1b;
 	border-style: solid;

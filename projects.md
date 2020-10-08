@@ -4,9 +4,15 @@ title: Projects
 ---
 Stuff that I've worked on, by choice (weird, right?).
 
+[![My github stats](https://github-readme-stats.vercel.app/api?username=luckierdodge&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+_Stat card powered by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)_
+
 ## Personal
 
-* [Configurations & dotfiles](https://github.com/LuckierDodge/configs)
+* [LuckierDodge/README.md](https://github.com/LuckierDodge/LuckierDodge)
+* [configs](https://github.com/LuckierDodge/configs)
+* [dockerfiles](https://github.com/LuckierDodge/dockerfiles)
 * [This Website!](https://github.com/LuckierDodge/website)
 * [Sieve of Eratosthenes](https://github.com/LuckierDodge/eratosthenes-sieve)
 * [Start Page](https://github.com/LuckierDodge/Start-Page)
@@ -22,6 +28,10 @@ Stuff that I've worked on, by choice (weird, right?).
 ### Android
 
 * [Final Project](https://github.com/LuckierDodge/AndroidFinalProject)
+
+### Honors Capstone Project
+
+* [Virtual Canvas](https://github.com/ddiLab/VirtualCanvas)
 
 ## Research and Extracurricular
 
