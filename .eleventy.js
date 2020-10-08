@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
 		return new CleanCSS({}).minify(code).styles;
 	});
 	eleventyConfig.addPassthroughCopy("assets");
+	eleventyConfig.addPassthroughCopy({"favicon/*": "/"});
 	eleventyConfig.setBrowserSyncConfig({
 		callbacks: {
 			ready: function(err, bs) {
