@@ -1,24 +1,30 @@
+@font-face {
+	font-family: CascadiaMono;
+	src: url(/assets/fonts/woff2/CascadiaMonoPL.woff2);
+}
+
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: CascadiaMono, 'Open Sans', sans-serif;
 	padding-left: 10%;
 	padding-right: 10%;
 	background-color: #00030b;
 	color: White;
 }
-img {
-	box-shadow: 10px 10px #001010;
-}
 a:link {
 	color: Orange;
+	border-color: Orange;
 }
 a:visited {
 	color: Chocolate;
+	border-color: Chocolate;
 }
 a:hover {
 	color: Coral;
+	border-color: Coral;
 }
 .header-image {
-	border-radius: 50%
+	border-radius: 50%;
+	box-shadow: 10px 10px #001010;
 }
 footer {
 	text-align: center;
@@ -37,4 +43,21 @@ footer {
 ::selection {
 	background-color: DarkCyan;
 	color: Black;
+}
+
+.link-capsule ul {
+	list-style-type: none;
+}
+
+.link-capsule a {
+	background-color: #000a1b;
+	border-style: solid;
+	text-align: center;
+	text-decoration: none;
+	display: table;
+	margin: 4px 2px;
+	padding: 4px 4px;
+	cursor: pointer;
+	border-radius: 16px;
+	border-width: 2px;
 }
