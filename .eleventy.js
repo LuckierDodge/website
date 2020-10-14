@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
 	});
 	eleventyConfig.addPassthroughCopy("assets");
 	eleventyConfig.addPassthroughCopy({"favicon/*": "/"});
+	eleventyConfig.addPassthroughCopy("robots.txt");
 	eleventyConfig.setBrowserSyncConfig({
 		callbacks: {
 			ready: function(err, bs) {

@@ -1,6 +1,7 @@
 @font-face {
 	font-family: CascadiaMono;
 	src: url(/assets/fonts/woff2/CascadiaMonoPL.woff2);
+	font-display: swap;
 }
 
 body {
