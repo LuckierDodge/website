@@ -55,5 +55,6 @@ Ya know, that thing that I definitely have.
 * 🎮 Casual Gamer
 * 🎷 Hobby Saxophonist
 * 💻 Avid Technology, Math, and Science Nerd
-* 🤖 Amateur 3D Printer Enthusiast (criminally, there's no emoji for a 3D printer).
+* 🏠 Amatuer [Homelabber](https://www.reddit.com/r/homelab/)
+* 🤖 3D Printer Enthusiast (criminally, there's no emoji for a 3D printer).
 * 📝 Book Worm, Writer, and Programmer
