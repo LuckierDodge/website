@@ -10,11 +10,15 @@ description: "The humble internet home of Ryan D. Lewis: student, developer, res
 
 👋 Hello, and welcome to my humble internet home!
 
-### [📝 Posts]({{site.url}}/posts)
-### [🤝 About Me]({{site.url}}/aboutme)
-### [💻 Projects]({{site.url}}/projects)
-### [📚 Publications and Presentations]({{site.url}}/pubs)
-### [💸 Support]({{site.url}}/support)
+<div class="link-capsule">
+
+* **[📝 Posts]({{site.url}}/posts)**
+* **[🤝 About Me]({{site.url}}/aboutme)**
+* **[💻 Projects]({{site.url}}/projects)**
+* **[📚 Publications and Presentations]({{site.url}}/pubs)**
+* **[💸 Support]({{site.url}}/support)**
+
+</div>
 
 ## More Places to Find Me
 
