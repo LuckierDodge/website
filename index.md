@@ -15,7 +15,7 @@ description: "The humble internet home of Ryan D. Lewis: student, developer, res
 * **[📝 Posts]({{site.url}}/posts)**
 * **[🤝 About Me]({{site.url}}/aboutme)**
 * **[💻 Projects]({{site.url}}/projects)**
-* **[📚 Publications and Presentations]({{site.url}}/pubs)**
+* **[📚 Publications & Presentations]({{site.url}}/pubs)**
 * **[💸 Support]({{site.url}}/support)**
 
 </div>

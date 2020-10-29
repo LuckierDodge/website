@@ -1,5 +1,5 @@
 ---
-layout: masterlayout.njk
+layout: pagelayout.njk
 title: About Site
 ---
 

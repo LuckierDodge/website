@@ -1,5 +1,5 @@
 ---
-layout: masterlayout.njk
+layout: pagelayout.njk
 title: About Me
 ---
 A little introduction to who I am, what I've done, and all that jazz.

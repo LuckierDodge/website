@@ -1,5 +1,5 @@
 ---
-layout: masterlayout.njk
+layout: pagelayout.njk
 title: Projects
 ---
 Stuff that I've worked on, by choice (weird, right?).
