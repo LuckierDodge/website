@@ -1,6 +1,7 @@
 ---
 layout: pagelayout.njk
 title: About Site
+description: "Information about my personal site, ryandlewis.dev."
 ---
 
 This site is an ad-, tracker-, analytic- and cookie-free zone, powered by [11ty](https://www.11ty.dev/). It uses the <a href="https://webmonetization.org/">Web Monetization Standard</a>, and is hosted by [Netlify](https://netlify.com). The source code is available on [GitHub](https://github.com/LuckierDodge/website.git).

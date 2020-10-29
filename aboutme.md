@@ -1,6 +1,7 @@
 ---
 layout: pagelayout.njk
-title: About Me
+title: 🤝 About Me
+description: "A little bit about who I am, what I've done, and all that jazz."
 ---
 A little introduction to who I am, what I've done, and all that jazz.
 

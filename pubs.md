@@ -1,6 +1,7 @@
 ---
 layout: "pagelayout.njk"
-title: "Publications and Presentations"
+title: "📚 Publications & Presentations"
+description: "A curated list of papers and presentations I've contributed to/given."
 ---
 
 A curated list of papers and presentations I've contributed to/given. Feel free to reach out to request personal-use copies of anything that isn't linked below!

@@ -1,6 +1,7 @@
 ---
 layout: pagelayout.njk
-title: Support
+title: 💸 Support
+description: "Some information about supporting me and my work."
 ---
 
 If you like the stuff I'm working on, or just want to help a sojourning grad student along in their studies, you can support me via:

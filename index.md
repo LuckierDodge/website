@@ -1,6 +1,6 @@
 ---
 layout: "masterlayout.njk"
-title: "Home"
+title: "🏠 Home"
 image: "/assets/images/profile-pic-icon-192.jpg"
 alt: "Profile photo of Ryan, facing down and to the left, wearing a green baseball cap."
 description: "The humble internet home of Ryan D. Lewis: student, developer, researcher, roboticist, and computational mathematician."
@@ -16,6 +16,7 @@ description: "The humble internet home of Ryan D. Lewis: student, developer, res
 * **[🤝 About Me]({{site.url}}/aboutme)**
 * **[💻 Projects]({{site.url}}/projects)**
 * **[📚 Publications & Presentations]({{site.url}}/pubs)**
+* **[🚀 Commissions & Services]({{site.url}}/services)**
 * **[💸 Support]({{site.url}}/support)**
 
 </div>

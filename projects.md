@@ -1,6 +1,7 @@
 ---
 layout: pagelayout.njk
-title: Projects
+title: 💻 Projects
+description: "Stuff that I work on in my free time."
 ---
 Stuff that I've worked on, by choice (weird, right?).
 
