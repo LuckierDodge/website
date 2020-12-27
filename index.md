@@ -28,10 +28,10 @@ description: "The humble internet home of Ryan D. Lewis: student, developer, res
 <div class="link-capsule">
 
 <!-- * **[]()** -->
-* **[Ryan D. Lewis • Google Scholar](https://scholar.google.com/citations?user=NXd4XaoAAAAJ)**
-* <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-3000-2811" href="https://orcid.org/0000-0002-3000-2811" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;">0000-0002-3000-2811 • <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">ORCID iD</a></div> 
-* **[Ryan D. Lewis • LinkedIn](https://www.linkedin.com/in/ryan-d-lewis)**
-* **[@luckierdodge • GitHub](https://github.com/luckierdodge)**
+* **[Google Scholar](https://scholar.google.com/citations?user=NXd4XaoAAAAJ "Ryan D. Lewis • Google Scholar")**
+* <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-3000-2811" title="0000-0002-3000-2811 • ORCID iD" href="https://orcid.org/0000-0002-3000-2811" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">ORCID iD</a></div> 
+* **[LinkedIn](https://www.linkedin.com/in/ryan-d-lewis "Ryan D. Lewis • LinkedIn")**
+* **[GitHub](https://github.com/luckierdodge "@luckierdodge • GitHub")**
 
 </div>
 
@@ -40,8 +40,9 @@ description: "The humble internet home of Ryan D. Lewis: student, developer, res
 <div class="link-capsule">
 
 <!-- * **[]()** -->
-* **[@luckierdodge • Dev](https://dev.to/luckierdodge)**
-* **[@RhinoDaDino • Twitter](https://twitter.com/RhinoDaDino)**
-* <a rel="me" href="https://mastodon.online/@luckierdodge"><b>@luckierdodge • Mastodon.Online</b></a>
+* **[Dev.to](https://dev.to/luckierdodge "@luckierdodge • Dev")**
+* **[Twitter](https://twitter.com/RhinoDaDino "@RhinoDaDino • Twitter")**
+* <a rel="me" href="https://mastodon.online/@luckierdodge" title="@luckierdodge • Mastodon.Online"><b>Mastodon</b></a>
+* **[PixelFed](https://pixelfed.social/luckierdodge "@luckierdodge • PixelFed.Social")**
 
 </div>
