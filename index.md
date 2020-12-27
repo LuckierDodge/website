@@ -19,7 +19,7 @@ description: "The humble internet home of Ryan D. Lewis: student, developer, res
 
 The latest posts I've written.
 
-{%- for post in collections.post reversed -%}
+{%- for post in collections.posts reversed -%}
 {{newline}}
 ### [ {{ post.data.title }} ]( {{post.url}} )
 
@@ -69,7 +69,14 @@ _Stat card powered by [github-readme-stats](https://github.com/anuraghazra/githu
 
 ---
 
-## More Places to Find Me
+## Links
+
+<div class="link-capsule">
+
+* **[RSS Feed](https://ryandlewis.dev/feed.xml)**
+
+</div>
+
 
 ### Professional
 
