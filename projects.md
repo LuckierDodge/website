@@ -10,12 +10,19 @@ Stuff that I've worked on, by choice (weird, right?).
 
 _Stat card powered by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)_
 
-<ul>
-{%- for project in collections.project -%}
-<li>{{project.data.title}}</li>
-{%- endfor -%}
-</ul>
+{%- for project in collections.project reversed -%}
+<!---->
+## [ {{ project.data.title }} ]( {{ project.url }} )
 
+> {{ project.data.description }}
+
+Project Link: [ {{ project.data.projecturl }} ]( {{ project.data.projecturl }} )
+
+{%- endfor -%}
+
+
+blah
+<!--
 ## Personal
 
 * [LuckierDodge/README.md](https://github.com/LuckierDodge/LuckierDodge)
@@ -45,3 +52,4 @@ _Stat card powered by [github-readme-stats](https://github.com/anuraghazra/githu
 
 * [Array of Things Virtual Reality Visualization](https://github.com/LuckierDodge/AoT_VR_Visualization)
 * [NIU Rover CoreOS](https://github.com/NIURoverTeam/RoverCoreOS)
+-->

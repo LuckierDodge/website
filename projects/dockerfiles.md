@@ -1,7 +1,8 @@
 ---
 tags: project
-title: LuckierDodge/dockerfiles
-project-url: https://github.com/LuckierDodge/dockerfiles
+title: 🐋 dockerfiles
+projecturl: https://github.com/LuckierDodge/dockerfiles
 description: "A GitHub repo that contains the dockerfiles I use in my homelab."
+date: 2020-07-17
 layout: projectlayout.njk
 ---
