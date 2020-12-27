@@ -2,7 +2,7 @@
 tags: project
 title: 🖊 Graphics Modeling
 projecturl: https://ryandlewis.dev/projects/graphics
-description: "Some artifacts from my graphics modeling efforts that I think don't look half bad."
+description: "Some artifacts from my graphics modeling efforts that I think don't look half bad. All programmatically generated using a RenderMan-based graphics pipeline."
 date: 2020-12-01
 layout: projectlayout.njk
 ---

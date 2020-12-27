@@ -4,16 +4,26 @@ title: 💻 Projects
 description: "Stuff that I work on in my free time."
 ---
 
+{% capture newline %}
+{% endcapture %}
+
 Stuff that I've worked on, by choice (weird, right?).
 
 
 {%- for project in collections.project reversed -%}
-<div class="project">
-<h2><a href="{{ project.url }}">{{ project.data.title }}</a></h2>
 
-> {{ project.data.description }}
+{{newline}}
 
-Project Link: [ {{ project.data.projecturl }} ]( {{ project.data.projecturl }} )
+## [{{project.data.title}}]({{project.url}})
 
-</div>
+{{newline}}
+
+{{ project.data.description | safe }}
+
+[Project Link]({{ project.data.projecturl }} "{{project.data.projecturl}}")
+
+{{ newline}}
+---
+{{newline}}
+
 {%- endfor -%}

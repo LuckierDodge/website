@@ -1,32 +1,47 @@
 ---
-layout: "masterlayout.njk"
+layout: "pagelayout.njk"
 title: "🏠 Home"
 image: "/assets/images/profile-pic-icon-192.jpg"
 alt: "Profile photo of Ryan, facing down and to the left, wearing a green baseball cap."
 description: "The humble internet home of Ryan D. Lewis: student, developer, researcher, roboticist, and computational mathematician."
 ---
 
+{% capture newline %}
+{% endcapture %}
+
 ## Student • Developer • Researcher • Roboticist • Computational Mathematician
 
 👋 Hello, and welcome to my humble internet home!
 
-<div class="link-capsule">
+---
 
-* **[📝 Posts]({{site.url}}/posts)**
-* **[🤝 About Me]({{site.url}}/aboutme)**
-* **[💻 Projects]({{site.url}}/projects)**
-* **[📚 Publications & Presentations]({{site.url}}/pubs)**
-* **[🚀 Commissions & Services]({{site.url}}/services)**
-* **[💸 Support]({{site.url}}/support)**
+## Latest Posts
 
-</div>
+The latest posts I've written.
+
+{%- for post in collections.post reversed -%}
+{{newline}}
+### [ {{ post.data.title }} ]( {{post.url}} )
+
+{{newline}}
+
+> {{ post.data.description }}
+
+	{%- if forloop.index == 3 -%}
+		{%- break -%}
+	{%- endif -%}
+{{newline}}
+{%- endfor -%}
+
+{{newline}}
+[More ➡](/posts)
+
+---
 
 ## Latest Projects
 
 The latest projects I've started.
 
-{% capture newline %}
-{% endcapture %}
 {%- for project in collections.project reversed -%}
 {{newline}}
 ### [ {{ project.data.title }} ]( {{project.url}} )
@@ -44,11 +59,15 @@ The latest projects I've started.
 {{newline}}
 [More ➡](/projects)
 
+---
+
 ## GitHub Stats
 
 [![My github stats](https://github-readme-stats.vercel.app/api?username=luckierdodge&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 _Stat card powered by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)_
+
+---
 
 ## More Places to Find Me
 
