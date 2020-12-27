@@ -6,3 +6,7 @@ description: "Evaluating whether or not a Deterministic Finite Automata accepts 
 date: 2018-11-01
 layout: projectlayout.njk
 ---
+
+Project Link: [{{projecturl}}]({{projecturl}})
+
+Description: _{{ description }}_

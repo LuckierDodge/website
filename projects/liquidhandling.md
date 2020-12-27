@@ -6,3 +6,7 @@ description: "Extending the functionality of a Hudson Robotics Lab Automation So
 date: 2020-02-19
 layout: projectlayout.njk
 ---
+
+Project Link: [{{projecturl}}]({{projecturl}})
+
+Description: _{{ description }}_

@@ -6,3 +6,7 @@ description: "Final Project for Advanced iOS Development, a kanban-style Taskboa
 date: 2018-12-11
 layout: projectlayout.njk
 ---
+
+Project Link: [{{projecturl}}]({{projecturl}})
+
+Description: _{{ description }}_

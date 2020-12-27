@@ -6,3 +6,7 @@ description: "Evaluating whether or not a Nondeterministic Finite Automata (with
 date: 2018-11-17
 layout: projectlayout.njk
 ---
+
+Project Link: [{{projecturl}}]({{projecturl}})
+
+Description: _{{ description }}_

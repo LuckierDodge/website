@@ -6,3 +6,7 @@ description: "This repository, produced as part of a Senior Honors Capstone Rese
 date: 2019-02-11
 layout: projectlayout.njk
 ---
+
+Project Link: [{{projecturl}}]({{projecturl}})
+
+Description: _{{ description }}_

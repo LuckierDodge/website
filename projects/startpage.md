@@ -6,3 +6,7 @@ description: "A simple landing page for chrome browsers."
 date: 2016-12-04
 layout: projectlayout.njk
 ---
+
+Project Link: [{{projecturl}}]({{projecturl}})
+
+Description: _{{ description }}_

@@ -7,6 +7,10 @@ date: 2020-12-01
 layout: projectlayout.njk
 ---
 
+Project Link: [{{projecturl}}]({{projecturl}})
+
+Description: _{{ description }}_
+
 <div class="image">
 
 ![Bezier Patches](/assets/images/BezierPatches.png#responsiveimage "Bezier Patches")

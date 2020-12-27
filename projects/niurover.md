@@ -6,3 +6,7 @@ description: "Open to all majors, the Northern Illinois University Mars Rover Te
 date: 2018-03-08
 layout: projectlayout.njk
 ---
+
+Project Link: [{{projecturl}}]({{projecturl}})
+
+Description: _{{ description }}_

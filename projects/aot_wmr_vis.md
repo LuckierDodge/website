@@ -6,3 +6,7 @@ description: "Development code for research into visualizing the Array of Things
 date: 2020-05-12
 layout: projectlayout.njk
 ---
+
+Project Link: [{{projecturl}}]({{projecturl}})
+
+Description: _{{ description }}_

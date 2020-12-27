@@ -6,3 +6,7 @@ description: "A GitHub repo that contains the dotfiles I use across most of the 
 date: 2015-10-16
 layout: projectlayout.njk
 ---
+
+Project Link: [{{projecturl}}]({{projecturl}})
+
+Description: _{{ description }}_
