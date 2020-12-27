@@ -19,7 +19,11 @@ It's capable of printing almost any commonly-used 3D printing filament (PLA, ABS
 If a specific material or color is needed for a project, I'm happy to acquire it.
 
 <div class="image">
-<img src='/assets/images/headphone-stand.jpg' alt="A headphone stand printed on my CR-10S in Marble PLA" width="200"/>
+
+![A headphone stand printed on my CR-10S in Marble PLA](/assets/images/headphone-stand.jpg#responsiveimage "A headphone stand printed on my CR-10S in Marble PLA")
+
+_A headphone stand printed on my CR-10S in Marble PLA_
+
 </div>
 
 The machine itself is quite versatile: I've used it for printing utility items (coat hangers, cane adapters, headphone and gamepad stands), toys, miniatures, cosplay and props, parts, and more.

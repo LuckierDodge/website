@@ -21,6 +21,35 @@ description: "The humble internet home of Ryan D. Lewis: student, developer, res
 
 </div>
 
+## Latest Projects
+
+The latest projects I've started.
+
+{% capture newline %}
+{% endcapture %}
+{%- for project in collections.project reversed -%}
+{{newline}}
+### [ {{ project.data.title }} ]( {{project.url}} )
+
+{{newline}}
+
+> {{ project.data.description }}
+
+	{%- if forloop.index == 3 -%}
+		{%- break -%}
+	{%- endif -%}
+{{newline}}
+{%- endfor -%}
+
+{{newline}}
+[More ➡](/projects)
+
+## GitHub Stats
+
+[![My github stats](https://github-readme-stats.vercel.app/api?username=luckierdodge&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+_Stat card powered by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)_
+
 ## More Places to Find Me
 
 ### Professional
