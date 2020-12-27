@@ -1,7 +1,7 @@
 ---
 layout: "pagelayout.njk"
 title: "🏠 Home"
-image: "https://ryandlewis.dev/assets/images/profile-pic-icon-192.jpg"
+image: "/assets/images/profile-pic-icon-192.jpg"
 alt: "Profile photo of Ryan, facing down and to the left, wearing a green baseball cap."
 description: "The humble internet home of Ryan D. Lewis: student, developer, researcher, roboticist, and computational mathematician."
 ---
@@ -63,9 +63,11 @@ The latest projects I've started.
 
 ## GitHub Stats
 
+<!--
 [![My github stats](https://github-readme-stats.vercel.app/api?username=luckierdodge&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 _Stat card powered by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)_
+-->
 
 ---
 
