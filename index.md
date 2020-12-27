@@ -86,7 +86,9 @@ _Stat card powered by [github-readme-stats](https://github.com/anuraghazra/githu
 
 <!-- * **[]()** -->
 * **[Google Scholar](https://scholar.google.com/citations?user=NXd4XaoAAAAJ "Ryan D. Lewis • Google Scholar")**
+<!--
 * <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-3000-2811" title="0000-0002-3000-2811 • ORCID iD" href="https://orcid.org/0000-0002-3000-2811" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">ORCID iD</a></div> 
+-->
 * **[LinkedIn](https://www.linkedin.com/in/ryan-d-lewis "Ryan D. Lewis • LinkedIn")**
 * **[GitHub](https://github.com/luckierdodge "@luckierdodge • GitHub")**
 
