@@ -34,6 +34,11 @@ I am a...
 
 {%- for post in collections.posts reversed -%}
 {{newline}}
+{%- if post.data.headerimage -%}
+!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivesmall)
+{{newline}}
+{%- endif -%}
+{{newline}}
 ### [ {{ post.data.title }} ]( {{post.url}} )
 
 {{newline}}
