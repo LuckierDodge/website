@@ -18,12 +18,10 @@ Stuff that I've worked on, by choice (weird, right?).
 
 {{newline}}
 
-{{ project.data.description | safe }}
+> {{ project.data.description | safe }}
 
 [Project Link]({{ project.data.projecturl }} "{{project.data.projecturl}}")
 
-{{ newline}}
----
 {{newline}}
 
 {%- endfor -%}

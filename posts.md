@@ -19,14 +19,12 @@ Thoughts on code, robots, and life, delivered at random.
 
 {{newline}}
 
-{{ post.data.description | safe }}
+> {{ post.data.description | safe }}
 
 {{newline}}
 
 [Read at Dev]({{post.data.externalurl}}) | [Read at ryandlewis.dev]({{post.url}})
 
-{{newline}}
----
 {{newline}}
 
 {%- endfor -%}
