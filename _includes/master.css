@@ -6,10 +6,29 @@
 
 body {
 	font-family: 'Cascadia Mono', CascadiaMono, sans-serif;
-	padding-left: 10%;
-	padding-right: 10%;
 	background-color: #00030b;
 	color: White;
+}
+.main {
+	width: 85%;
+	max-width: 100em;
+	margin: auto;
+}
+footer {
+	text-align: center;
+	color: white;
+	font-size: .6rem;
+	background-color: #00030b;
+	width: 100%;
+	margin: auto;
+	padding-top: 5%;
+}
+header {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	padding-left: -4%;
+	padding-right: -4%;
 }
 a:link {
 	color: Orange;
@@ -22,15 +41,6 @@ a:visited {
 a:hover {
 	color: Coral;
 	border-color: Coral;
-}
-footer {
-	text-align: center;
-	color: white;
-	font-size: .6rem;
-	background-color: #00030b;
-	width: 100%;
-	margin: auto;
-	padding-top: 5%;
 }
 ::-moz-selection {
 	background-color: DarkCyan;

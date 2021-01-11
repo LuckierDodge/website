@@ -2,22 +2,35 @@
 layout: "pagelayout.njk"
 title: "🏠 Home"
 image: "/assets/images/profile-pic-icon-192.jpg"
-alt: "Profile photo of Ryan, facing down and to the left, wearing a green baseball cap."
+alt: "Profile photo"
 description: "The humble internet home of Ryan D. Lewis: student, developer, researcher, roboticist, and computational mathematician."
 ---
 
 {% capture newline %}
 {% endcapture %}
 
-## Student • Developer • Researcher • Roboticist • Computational Mathematician
-
 👋 Hello, and welcome to my humble internet home!
+
+I am a...
+
+
+>Student
+
+>Developer
+
+>Researcher
+
+>Roboticist
+
+>Computational Mathematician
+
+...currently studying and working at Northern Illinois University and Argonne National Laboratory.
+
+[Learn more about me →](/aboutme)
 
 ---
 
 ## Latest Posts
-
-The latest posts I've written.
 
 {%- for post in collections.posts reversed -%}
 {{newline}}
@@ -34,13 +47,11 @@ The latest posts I've written.
 {%- endfor -%}
 
 {{newline}}
-[More ➡](/posts)
+[More Posts →](/posts)
 
 ---
 
 ## Latest Projects
-
-The latest projects I've started.
 
 {%- for project in collections.project reversed -%}
 {{newline}}
@@ -57,15 +68,7 @@ The latest projects I've started.
 {%- endfor -%}
 
 {{newline}}
-[More ➡](/projects)
-
----
-
-## GitHub Stats
-
-[![My github stats](https://github-readme-stats.vercel.app/api?username=luckierdodge&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-
-_Stat card powered by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)_
+[More Projects →](/projects)
 
 ---
 

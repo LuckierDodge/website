@@ -216,7 +216,7 @@ But it occurred to me that someone else might find these useful in some way, esp
 * Rapyuta Robotics ad
 	* More warehouse robots
 
-## 🌎 MoveIt World
+## 🌍 MoveIt World
 
 Lots of different technical sessions at 1:45pm, I chose this one because it's relevant to stuff I want to do in the near future. Might go back and explore the other talks later.
 

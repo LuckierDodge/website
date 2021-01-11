@@ -25,12 +25,25 @@ alt: ""
 		</style>
 		<title>{{ title }}</title>
 	</head>
-	<body>
+	<header>
 		{% if image %}
 			<img src="{{ image }}" class="profile-image" width=150 height=150 alt="{{ alt }}">
 		{% endif %}
-		<h1><a href="{{ '/' }}">Ryan D. Lewis</a> | {{ title }}</h1>
-		{{ content | safe }}
+		<div class="link-capsule capsule-inline">
+			<a href="/">🏠 Home</a>
+			<a href="/aboutme">🤝 About Me</a>
+			<a href="/posts">📝 Posts</a>
+			<a href="/projects">💻 Projects</a>
+			<a href="/pubs">📚 Publications</a>
+			<a href="/services">🚀 Services</a>
+			<a href="/support">💸 Support</a>
+		</div>
+	</header>
+	<body>
+		<div class="main">
+			<h1><a href="{{ '/' }}">Ryan D. Lewis</a> → {{ title }}</h1>
+			{{ content | safe }}
+		</div>
 	</body>
 	<footer>
 		<p>Ryan D. Lewis | <a href="{{ '/aboutsite' }}">About this site</a> | <a href="/feed.xml">RSS Feed</a></p>

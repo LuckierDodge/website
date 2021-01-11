@@ -1,6 +1,6 @@
 ---
 layout: pagelayout.njk
-title: 🚀 Commissions & Services
+title: 🚀 Services & Commissions 
 description: "The services I offer to individuals, non-profits, communities, and small businesses."
 ---
 
