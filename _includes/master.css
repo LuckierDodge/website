@@ -87,6 +87,29 @@ a:hover {
 	color: DarkCyan;
 	border-color: DarkCyan;
 }
+.link-capsule a:hover {
+	color: MediumAquamarine;
+	border-color: MediumAquamarine;
+}
+.big-link-capsule a {
+	background-color: #000a1b;
+	border-style: solid;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	padding: 8px 8px;
+	cursor: pointer;
+	border-radius: 32px;
+	border-width: 2px;
+}
+.big-link-capsule a:visited {
+	color: DarkCyan;
+	border-color: DarkCyan;
+}
+.big-link-capsule a:hover {
+	color: MediumAquamarine;
+	border-color: MediumAquamarine;
+}
 
 hr {
 	margin-top: 75px;
