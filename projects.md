@@ -14,13 +14,8 @@ Stuff that I've worked on, by choice (weird, right?).
 
 {{newline}}
 
-## [{{project.data.title}}]({{project.url}})
+* [{{project.data.title}}]({{project.url}}) ([Project Link]({{project.data.projecturl}})): {{ project.data.description | safe }}
 
-{{newline}}
-
-> {{ project.data.description | safe }}
-
-[Project Link]({{ project.data.projecturl }} "{{project.data.projecturl}}")
 
 {{newline}}
 

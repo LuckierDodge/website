@@ -43,24 +43,24 @@ header {
 	}
 }
 h1 {
-	color: DarkOliveGreen;
-	border-color: DarkOliveGreen;
+	color: DarkCyan;
+	border-color: DarkCyan;
 }
 h2 {
-	color: DarkOliveGreen;
-	border-color: DarkOliveGreen;
+	color: DarkCyan;
+	border-color: DarkCyan;
 }
 a:link {
-	color: DarkOliveGreen;
-	border-color: DarkOliveGreen;
+	color: DarkCyan;
+	border-color: DarkCyan;
 }
 a:visited {
 	color: DarkSlateGrey;
 	border-color: DarkSlateGrey;
 }
 a:hover {
-	color: DarkSeaGreen;
-	border-color: DarkSeaGreen;
+	color: MediumAquamarine;
+	border-color: MediumAquamarine;
 }
 ::-moz-selection {
 	background-color: DarkCyan;
@@ -84,14 +84,14 @@ a:hover {
 	border-width: 2px;
 }
 .link-capsule a:visited {
-	color: DarkOliveGreen;
-	border-color: DarkOliveGreen;
+	color: DarkCyan;
+	border-color: DarkCyan;
 }
 
 hr {
 	margin-top: 75px;
 	margin-bottom: 75px;
-	color: DarkOliveGreen;
+	color: DarkCyan;
 	width: 80%;
 }
 

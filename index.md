@@ -52,16 +52,33 @@ I am a...
 
 {%- for post in collections.posts reversed -%}
 {{newline}}
+<div class="responsive2column">
+<div class="column-1">
+{{ newline }}
+### [ {{ post.data.title }} ]( {{post.url}} )
 {%- if post.data.headerimage -%}
+{{newline}}
+<div class="image">
+{{newline}}
 !["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivesmall)
+{{newline}}
+</div>
 {{newline}}
 {%- endif -%}
 {{newline}}
-### [ {{ post.data.title }} ]( {{post.url}} )
+</div>
+<div class="column-2">
 
 {{newline}}
 
 > {{ post.data.description }}
+
+{{newline}}
+
+</div>
+</div>
+
+{{newline}}
 
 	{%- if forloop.index == 3 -%}
 		{%- break -%}
