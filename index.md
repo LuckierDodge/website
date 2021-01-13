@@ -9,6 +9,20 @@ description: "The humble internet home of Ryan D. Lewis: student, developer, res
 {% capture newline %}
 {% endcapture %}
 
+<div class="responsive2column">
+
+<div class="column-1 image">
+
+<div class="vertical-center">
+
+![Profile photo](/assets/images/profile-pic-icon-192.jpg#profileimage)
+
+</div>
+
+</div>
+
+<div class="column-2">
+
 👋 Hello, and welcome to my humble internet home!
 
 I am a...
@@ -27,6 +41,10 @@ I am a...
 ...currently studying and working at Northern Illinois University and Argonne National Laboratory.
 
 [Learn more about me →](/aboutme)
+
+</div>
+
+</div>
 
 ---
 
@@ -81,7 +99,7 @@ I am a...
 
 <div class="link-capsule">
 
-* **[RSS Feed](https://ryandlewis.dev/feed.xml)**
+**[RSS Feed](https://ryandlewis.dev/feed.xml)**
 
 </div>
 
@@ -90,11 +108,11 @@ I am a...
 
 <div class="link-capsule">
 
-<!-- * **[]()** -->
-* **[Google Scholar](https://scholar.google.com/citations?user=NXd4XaoAAAAJ "Ryan D. Lewis • Google Scholar")**
-* **[ORCID iD](https://orcid.org/0000-0002-3000-2811 "0000-0002-3000-2811 • ORCID iD")**
-* **[LinkedIn](https://www.linkedin.com/in/ryan-d-lewis "Ryan D. Lewis • LinkedIn")**
-* **[GitHub](https://github.com/luckierdodge "@luckierdodge • GitHub")**
+<!-- **[]()** -->
+**[Google Scholar](https://scholar.google.com/citations?user=NXd4XaoAAAAJ "Ryan D. Lewis • Google Scholar")**
+**[ORCID iD](https://orcid.org/0000-0002-3000-2811 "0000-0002-3000-2811 • ORCID iD")**
+**[LinkedIn](https://www.linkedin.com/in/ryan-d-lewis "Ryan D. Lewis • LinkedIn")**
+**[GitHub](https://github.com/luckierdodge "@luckierdodge • GitHub")**
 
 </div>
 
@@ -102,10 +120,10 @@ I am a...
 
 <div class="link-capsule">
 
-<!-- * **[]()** -->
-* **[Dev.to](https://dev.to/luckierdodge "@luckierdodge • Dev")**
-* **[Twitter](https://twitter.com/RhinoDaDino "@RhinoDaDino • Twitter")**
-* <a rel="me" href="https://mastodon.online/@luckierdodge" title="@luckierdodge • Mastodon.Online"><b>Mastodon</b></a>
-* **[PixelFed](https://pixelfed.social/luckierdodge "@luckierdodge • PixelFed.Social")**
+<!-- **[]()** -->
+**[Dev.to](https://dev.to/luckierdodge "@luckierdodge • Dev")**
+**[Twitter](https://twitter.com/RhinoDaDino "@RhinoDaDino • Twitter")**
+<a rel="me" href="https://mastodon.online/@luckierdodge" title="@luckierdodge • Mastodon.Online"><b>Mastodon</b></a>
+**[PixelFed](https://pixelfed.social/luckierdodge "@luckierdodge • PixelFed.Social")**
 
 </div>

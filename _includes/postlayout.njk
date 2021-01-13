@@ -1,0 +1,14 @@
+---
+layout: pagelayout.njk
+---
+
+<a href="/posts">⬆ Back to Posts</a>
+
+{% if headerimage %}
+	<div class="image">
+		<img src="{{ headerimage }}#responsiveimage" alt="{{ alt }}">
+	</div>
+{% endif %}
+
+
+{{ content | safe }}

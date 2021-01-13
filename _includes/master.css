@@ -17,7 +17,7 @@ body {
 footer {
 	text-align: center;
 	color: white;
-	font-size: .6rem;
+	font-size: .8rem;
 	background-color: #00030b;
 	width: 100%;
 	margin: auto;
@@ -29,6 +29,18 @@ header {
 	text-align: center;
 	padding-left: -4%;
 	padding-right: -4%;
+}
+.responsive2column {
+	display: flex;
+}
+.column-1 {
+	flex-shrink: 0;
+	flex-basis: 50%;
+}
+@media only screen and (max-width: 900px) {
+	.responsive2column {
+		flex-direction: column;
+	}
 }
 h1 {
 	color: DarkOliveGreen;
@@ -60,19 +72,11 @@ a:hover {
 	color: Black;
 }
 
-.link-capsule ul {
-	list-style-type: none;
-}
-
-.link-capsule li {
-	margin-left: -40px;
-}
-
 .link-capsule a {
 	background-color: #000a1b;
 	border-style: solid;
 	text-decoration: none;
-	display: table;
+	display: inline-block;
 	margin: 4px 2px;
 	padding: 4px 4px;
 	cursor: pointer;
@@ -84,10 +88,6 @@ a:hover {
 	border-color: DarkOliveGreen;
 }
 
-.capsule-inline a {
-	display: inline-block;
-	padding: 4px 4px;
-}
 hr {
 	margin-top: 75px;
 	margin-bottom: 75px;
@@ -96,11 +96,13 @@ hr {
 }
 
 /* Images */
-.profile-image {
-	border-radius: 50%;
-}
 .image {
   text-align: center;
+}
+.vertical-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 img[src*="#responsiveimage"] {
   max-width: 80%;
@@ -111,4 +113,7 @@ img[src*="#responsivesmall"] {
   max-width: 80%;
   max-height: 100px;
   height: auto;
+}
+img[src*="#profileimage"] {
+	border-radius: 25%;
 }
