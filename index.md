@@ -8,6 +8,7 @@ description: "The humble internet home of Ryan D. Lewis: student, developer, res
 
 {% capture newline %}
 {% endcapture %}
+{% capture space %} {% endcapture %}
 
 <div class="responsive2column">
 
@@ -50,7 +51,7 @@ I am a...
 
 ## Latest Posts
 
-{%- for post in collections.posts reversed -%}
+{%- for post in collections.Posts reversed -%}
 {{newline}}
 <div class="responsive2column">
 <div class="column-1">
@@ -68,6 +69,12 @@ I am a...
 <div class="column-2">
 {{ newline }}
 ### [ {{ post.data.title }} ]( {{post.url}} )
+{{newline}}
+<em>Tags:{{space}}
+{%- for tag in post.data.tags -%}
+{{ tag }},{{space}}
+{%- endfor -%}
+</em>
 {{newline}}
 > {{ post.data.description }}
 {{newline}}

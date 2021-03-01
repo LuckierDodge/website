@@ -6,12 +6,13 @@ description: "Where I'll post any thoughts, when I get around to writing them."
 
 {% capture newline %}
 {% endcapture %}
+{% capture space %} {% endcapture %}
 
 Thoughts on code, robots, and life, delivered at random.
 
 ## Adventures in Tech Series
 
-{%- for post in collections.adventures reversed -%}
+{%- for post in collections.Adventures_in_Tech reversed -%}
 {{newline}}
 <div class="responsive2column">
 <div class="column-1">
@@ -29,6 +30,12 @@ Thoughts on code, robots, and life, delivered at random.
 <div class="column-2">
 {{newline}}
 ### [ {{ post.data.title }} ]( {{post.url}} )
+{{newline}}
+<em>Tags:{{space}}
+{%- for tag in post.data.tags -%}
+{{ tag }},{{space}}
+{%- endfor -%}
+</em>
 {{newline}}
 > {{ post.data.description }}
 {{newline}}
@@ -41,7 +48,7 @@ Thoughts on code, robots, and life, delivered at random.
 
 ## Posts on [Dev](https://dev.to)
 
-{%- for post in collections.dev reversed -%}
+{%- for post in collections.Dev reversed -%}
 {{newline}}
 <div class="responsive2column">
 <div class="column-1">
@@ -59,6 +66,12 @@ Thoughts on code, robots, and life, delivered at random.
 <div class="column-2">
 {{newline}}
 ### [ {{ post.data.title }} ]( {{post.url}} )
+{{newline}}
+<em>Tags:{{space}}
+{%- for tag in post.data.tags -%}
+{{ tag }},{{space}}
+{%- endfor -%}
+</em>
 {{newline}}
 > {{ post.data.description }}
 {{newline}}

@@ -6,8 +6,8 @@
 
 body {
 	font-family: 'Cascadia Mono', CascadiaMono, sans-serif;
-	background-color: #00030b;
-	color: White;
+	background-color: #A5A7A8;
+	color: Black;
 }
 .main {
 	width: 85%;
@@ -16,9 +16,9 @@ body {
 }
 footer {
 	text-align: center;
-	color: white;
+	color: Black;
 	font-size: .8rem;
-	background-color: #00030b;
+	background-color: #A5A7A8;
 	width: 100%;
 	margin: auto;
 	padding-top: 5%;
@@ -43,79 +43,79 @@ header {
 	}
 }
 h1 {
-	color: DarkCyan;
-	border-color: DarkCyan;
+	color: Black;
 }
 h2 {
-	color: DarkCyan;
-	border-color: DarkCyan;
+	color: Black;
 }
 a:link {
-	color: DarkCyan;
-	border-color: DarkCyan;
+	color: Black;
+	font-weight: bold;
 }
 a:visited {
-	color: DarkSlateGrey;
-	border-color: DarkSlateGrey;
+	color: DarkSlateGray;
 }
 a:hover {
-	color: MediumAquamarine;
-	border-color: MediumAquamarine;
+	color: #43B02A;
+	background-color: #272828;
 }
 ::-moz-selection {
-	background-color: DarkCyan;
-	color: Black;
+	background-color: #43B02A;
 }
 
 ::selection {
-	background-color: DarkCyan;
-	color: Black;
+	background-color: #43B02A;
 }
 
 .link-capsule a {
-	background-color: #000a1b;
-	border-style: solid;
+	background-color: #272828;
+	border: 5px solid Black;
+	color: #43B02A;
 	text-decoration: none;
 	display: inline-block;
 	margin: 4px 2px;
 	padding: 4px 4px;
 	cursor: pointer;
 	border-radius: 16px;
-	border-width: 2px;
-}
-.link-capsule a:visited {
-	color: DarkCyan;
-	border-color: DarkCyan;
 }
 .link-capsule a:hover {
-	color: MediumAquamarine;
-	border-color: MediumAquamarine;
+	border-color: #43B02A;
 }
 .big-link-capsule a {
-	background-color: #000a1b;
-	border-style: solid;
+	background-color: #272828;
+	border: 5px solid Black;
+	color: #43B02A;
 	text-decoration: none;
 	display: inline-block;
 	margin: 4px 2px;
 	padding: 8px 8px;
 	cursor: pointer;
 	border-radius: 32px;
-	border-width: 2px;
-}
-.big-link-capsule a:visited {
-	color: DarkCyan;
-	border-color: DarkCyan;
 }
 .big-link-capsule a:hover {
-	color: MediumAquamarine;
-	border-color: MediumAquamarine;
+	border-color: #43B02A;
 }
 
 hr {
 	margin-top: 75px;
 	margin-bottom: 75px;
-	color: DarkCyan;
+	color: Black;
+	border: none;
+	border-top: 5px dotted Black;
 	width: 80%;
+}
+
+pre {
+	padding: 10px;
+	background-color: #272828;
+	color: White;
+	border: 5px solid Black;
+}
+
+code {
+	padding: 1px;
+	background-color: #272828;
+	color: White;
 }
 
 /* Images */
@@ -126,6 +126,10 @@ hr {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+img {
+	border: 5px solid Black;
+	background-color: #272828;
 }
 img[src*="#responsiveimage"] {
   max-width: 80%;
