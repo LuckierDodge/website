@@ -54,13 +54,11 @@ I am a...
 {{newline}}
 <div class="responsive2column">
 <div class="column-1">
-{{ newline }}
-### [ {{ post.data.title }} ]( {{post.url}} )
 {%- if post.data.headerimage -%}
 {{newline}}
 <div class="image">
 {{newline}}
-!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivesmall)
+!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivemedium)
 {{newline}}
 </div>
 {{newline}}
@@ -68,16 +66,13 @@ I am a...
 {{newline}}
 </div>
 <div class="column-2">
-
+{{ newline }}
+### [ {{ post.data.title }} ]( {{post.url}} )
 {{newline}}
-
 > {{ post.data.description }}
-
 {{newline}}
-
 </div>
 </div>
-
 {{newline}}
 
 	{%- if forloop.index == 3 -%}
@@ -85,7 +80,6 @@ I am a...
 	{%- endif -%}
 {{newline}}
 {%- endfor -%}
-
 {{newline}}
 [More Posts →](/posts)
 

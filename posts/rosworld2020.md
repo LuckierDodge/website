@@ -4,7 +4,7 @@ layout: devlayout.njk
 date: 2020-11-12
 externalurl: "https://dev.to/luckierdodge/personal-notes-from-ros-world-2020-2e04"
 description: "I attended the Robotic Operating System's [ROS World 2020](https://roscon.ros.org/world/2020/) convention today. I quite enjoyed it! To keep myself focused during the event, I tried to write some comprehensive notes. To keep myself entertained, I wrote them as if somebody else would be reading them."
-headerimage: "https://res.cloudinary.com/practicaldev/image/fetch/s--ZyvYgaZo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/wswx40fqm60akyivtd7b.png"
+headerimage: "https://roscon.ros.org/world/2020/img/ROSWorld2020.png"
 tags: [dev, posts]
 ---
 

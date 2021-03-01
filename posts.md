@@ -12,26 +12,29 @@ Thoughts on code, robots, and life, delivered at random.
 ## Adventures in Tech Series
 
 {%- for post in collections.adventures reversed -%}
-
 {{newline}}
-
+<div class="responsive2column">
+<div class="column-1">
+{{ newline }}
 {%- if post.data.headerimage -%}
-!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivesmall)
+<div class="image">
+{{newline}}
+!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivemedium)
+{{newline}}
+</div>
 {{newline}}
 {%- endif -%}
-
-### [{{ post.data.title }}]( {{post.data.externalurl}} )
-
 {{newline}}
-
-> {{ post.data.description | safe }}
-
+</div>
+<div class="column-2">
 {{newline}}
-
-[Read more →]({{post.url}})
-
+### [ {{ post.data.title }} ]( {{post.url}} )
 {{newline}}
-
+> {{ post.data.description }}
+{{newline}}
+</div>
+</div>
+{{newline}}
 {%- endfor -%}
 
 {{newline}}
@@ -39,24 +42,27 @@ Thoughts on code, robots, and life, delivered at random.
 ## Posts on [Dev](https://dev.to)
 
 {%- for post in collections.dev reversed -%}
-
 {{newline}}
-
+<div class="responsive2column">
+<div class="column-1">
+{{ newline }}
 {%- if post.data.headerimage -%}
-!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivesmall)
+<div class="image">
+{{newline}}
+!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivemedium)
+{{newline}}
+</div>
 {{newline}}
 {%- endif -%}
-
-### [{{ post.data.title }}]( {{post.data.externalurl}} )
-
 {{newline}}
-
-> {{ post.data.description | safe }}
-
+</div>
+<div class="column-2">
 {{newline}}
-
-[Read at Dev]({{post.data.externalurl}}) | [Read at ryandlewis.dev]({{post.url}})
-
+### [ {{ post.data.title }} ]( {{post.url}} )
 {{newline}}
-
+> {{ post.data.description }}
+{{newline}}
+</div>
+</div>
+{{newline}}
 {%- endfor -%}
