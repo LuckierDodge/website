@@ -110,6 +110,7 @@ pre {
 	background-color: #272828;
 	color: White;
 	border: 5px solid Black;
+	overflow-x: auto;
 }
 
 code {
