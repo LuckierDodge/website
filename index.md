@@ -1,8 +1,6 @@
 ---
 layout: "pagelayout.njk"
 title: "🏠 Home"
-image: "/assets/images/profile-pic-icon-192.jpg"
-alt: "Profile photo"
 description: "The humble internet home of Ryan D. Lewis: student, developer, researcher, roboticist, and computational mathematician."
 ---
 
