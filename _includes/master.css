@@ -105,11 +105,14 @@ hr {
 	width: 80%;
 }
 
+
+/* Code blocks */
 pre {
 	padding: 10px;
 	background-color: #272828;
 	color: White;
 	border: 5px solid Black;
+	border-radius: 16px;
 	overflow-x: auto;
 }
 
@@ -130,6 +133,7 @@ code {
 }
 img {
 	border: 5px solid Black;
+	border-radius: 16px;
 	background-color: #272828;
 }
 img[src*="#responsiveimage"] {
