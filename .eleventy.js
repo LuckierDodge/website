@@ -24,4 +24,9 @@ module.exports = function(eleventyConfig) {
 		}
 	});
 	eleventyConfig.addPlugin(pluginRss);
+	//markdown-it-anchor config
+	const markdownit = require("markdown-it");
+	const markdownitanchor = require("markdown-it-anchor");
+	const markdownlib = markdownit({ html: true }).use(markdownitanchor);
+	eleventyConfig.setLibrary("md", markdownlib);
 };

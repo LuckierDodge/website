@@ -4,7 +4,13 @@ title: 🚀 Services & Commissions
 description: "The services I offer to individuals, non-profits, communities, and small businesses."
 ---
 
-All of the services I offer below are on a case-by-case basis, and are done either:
+I offer the following independent services:
+* [3D Printing](#%F0%9F%A4%96-3d-printing)
+* [Self-hosting Setup and Help](#%F0%9F%8F%A1-self-hosting-setup-and-help)
+* [Website Development and Hosting](#%F0%9F%8C%90-website-development-and-hosting)
+* [Server-Based Virtual Machines and Service/Application Hosting](#%E2%9A%A1-server-based-virtual-machines-and-service%2Fapplication-hosting)
+
+All of the services I offer are on a case-by-case basis, and are done either:
 * Free of charge for non-profits or communities/individuals in need, or
 * With an appropriate fee (*cost of resources* + *commission rate*) for small businesses and private individuals.
 
