@@ -10,13 +10,9 @@ description: "The humble internet home of Ryan D. Lewis: student, developer, res
 
 <div class="responsive2column">
 
-<div class="column-1 image">
-
-<div class="vertical-center">
+<div class="column-1 image super-center">
 
 ![Profile photo](/assets/images/profile-pic-icon-192.jpg#profileimage)
-
-</div>
 
 </div>
 

@@ -126,10 +126,9 @@ code {
 .image {
   text-align: center;
 }
-.vertical-center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.super-center {
+	display: grid;
+	place-items: center;
 }
 img {
 	border: 5px solid Black;
