@@ -139,3 +139,12 @@ I am a...
 **[PixelFed](https://pixelfed.social/luckierdodge "@luckierdodge • PixelFed.Social")**
 
 </div>
+
+### Support
+
+<div class="link-capsule">
+
+**[Buy Me a Kilowatt](https://www.buymeacoffee.com/aVc18KuLq "Buy Me a Coffee")**
+**[Ko-fi](https://ko-fi.com/luckierdodge "Ko-fi")**
+
+</div>
