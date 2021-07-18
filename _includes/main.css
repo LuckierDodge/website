@@ -150,9 +150,6 @@ img[src*="#responsivesmall"] {
   max-height: 100px;
   height: auto;
 }
-img[src*="#profileimage"] {
-	border-radius: 25%;
-}
 
 table {
 	/* border: 5px solid black; */

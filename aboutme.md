@@ -12,21 +12,42 @@ A little introduction to who I am, what I've done, and all that jazz.
 
 ## 📚 Education
 
+
 <div class="responsive2column">
-<div class="column-1">
+<div class="column-1 image super-center">
+
+![Logo for University of Michigan](/assets/images/Michigan_Logo.png#responsivemedium)
+
+</div>
+<div class="column-2">
+
+### Masters of Science
+
+* **Robotics**
+* _University of Michigan, 2023_
+
+</div>
+</div>
+
+<div class="responsive2column">
+<div class="column-1 image super-center">
+
+![Logo for Northern Illinois University](/assets/images/NIU_Logo.png#responsivemedium)
+
+</div>
+<div class="column-2">
 
 ### Masters of Science
 
 * **Computer Science**
+* Thesis: "Log Analysis and Visualization of HPC Application Performance Data"
 * _Northern Illinois University, 2021_
-
-</div>
-<div class="column-2">
 
 ### Bachelors of Science
 
 * **Computer Science**, Emphasis: Computational Software
 * **Mathematics**, Emphasis: Computational Mathematics
+* **Mobile Programming Certificate**
 * _Northern Illinois University, 2019_
 
 </div>
@@ -52,6 +73,7 @@ If you're looking for the publications and presentations I've gotten out of thes
 * A semester in the ddiLab with a PROMISE scholar's grant, exploring interactions between 3D printing, muscle sensing, and VR.
 * 2 semesters as an undergraduate research aide in the ddiLab, working with the [Array of Things](https://arrayofthings.github.io/) Dataset, PostgreSQL, Virtual Reality, and 3D printing. (Even got two pieces in an art exhibit, somehow!)
 * 2 years at the Argonne Leadership Computing Facility doing performance log analysis and visualization for their Leadership Supercomputers (mostly Mira and Theta), while also working as a Graduate Research Assistant in the ddiLab.
+* 2 years in Argonne's CELS directorate working on Self-Directing Laboratories and Autonomous Discovery, first as an independent study project and then as a visiting student and research aide.
 
 ## 🏢 Internships and Work Experience
 

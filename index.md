@@ -12,7 +12,7 @@ description: "The humble internet home of Ryan D. Lewis: student, developer, res
 
 <div class="column-1 image super-center">
 
-![Profile photo](/assets/images/profile-pic-icon-192.jpg#profileimage)
+![Profile photo](/assets/images/Voxel_Profile.png#responsivemedium)
 
 </div>
 
@@ -33,7 +33,7 @@ I am a...
 
 >Computational Mathematician
 
-...currently studying and working at Northern Illinois University and Argonne National Laboratory.
+...currently studying and working at the University of Michigan and Argonne National Laboratory.
 
 [Learn more about me →](/aboutme)
 
