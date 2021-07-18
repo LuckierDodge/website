@@ -4,7 +4,13 @@ title: 🚀 Services & Commissions
 description: "The services I offer to individuals, non-profits, communities, and small businesses."
 ---
 
-All of the services I offer below are on a case-by-case basis, and are done either:
+I offer the following independent services:
+* [3D Printing](#%F0%9F%A4%96-3d-printing)
+* [Self-hosting Setup and Help](#%F0%9F%8F%A1-self-hosting-setup-and-help)
+* [Website Development and Hosting](#%F0%9F%8C%90-website-development-and-hosting)
+* [Server-Based Virtual Machines and Service/Application Hosting](#%E2%9A%A1-server-based-virtual-machines-and-service%2Fapplication-hosting)
+
+All of the services I offer are on a case-by-case basis, and are done either:
 * Free of charge for non-profits or communities/individuals in need, or
 * With an appropriate fee (*cost of resources* + *commission rate*) for small businesses and private individuals.
 
@@ -43,25 +49,24 @@ Self-hosted solutions are generally cheaper and more privacy-respecting than the
 
 I'm happy to develop simple, clean websites for a flat fee. Dynamic sites, i.e. sites with support for onine ordering or other active components and regularly updated content, cost more than static sites like portfolio pages.
 
-* Individual: $20 for a static site, $50 for a dynamic site
-* Organization: $50 for a static site, $100 for a dynamic site.
+| Website Creation  | Static Site | Dynamic Site   |
+|-------------------|-------------|----------------|
+| Individual        | $20 flat    | $50 flat       |
+| Organization      | $50 flat    | $100 flat      |
+
 
 I can either provide hosting using one of my local servers, for a monthly fee, or setup hosting using a cloud service.
 
-* Local Hosting:
-	* Individual: 
-		* Static Site: $1 per month
-		* Dynamic Site: $5 per month
-	* Organization:
-		* Static Site: $3 per month
-		* Dynamic Site: $10 per month
-* Cloud Hosting:
-	* Individual: 
-		* Static Site: Generally free
-		* Dynamic Site: Varies by Cloud Host Provider, services used.
-	* Organization:
-		* Static Site: Generally free
-		* Dynamic Site: Varies by Cloud Host Provider, services used.
+| Static Site Hosting | Local Hosting  | Cloud Hosting  |
+|---------------------|----------------|----------------|
+| Individual          | $1 per month   | Generally Free |
+| Organization        | $3 per month   | Generally Free |
+
+
+| Dynamic Site Hosting | Local Hosting  | Cloud Hosting                  |
+|----------------------|----------------|--------------------------------|
+| Individual           | $5 per month   | Varies by Service and Features |
+| Organization         | $10 per month  | Varies by Service and Features |
 
 Users will have to register their own domain service, but can receive assistance for this process as part of a free estimate. Typical prices for a domain registration should be in the $10-15 per year range, but can vary based on availability and Top-level Domain (TLD - .com, .org, etc) desired.
 

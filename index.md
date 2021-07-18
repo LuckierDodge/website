@@ -1,23 +1,18 @@
 ---
 layout: "pagelayout.njk"
 title: "🏠 Home"
-image: "/assets/images/profile-pic-icon-192.jpg"
-alt: "Profile photo"
 description: "The humble internet home of Ryan D. Lewis: student, developer, researcher, roboticist, and computational mathematician."
 ---
 
 {% capture newline %}
 {% endcapture %}
+{% capture space %} {% endcapture %}
 
 <div class="responsive2column">
 
-<div class="column-1 image">
-
-<div class="vertical-center">
+<div class="column-1 image super-center">
 
 ![Profile photo](/assets/images/profile-pic-icon-192.jpg#profileimage)
-
-</div>
 
 </div>
 
@@ -50,17 +45,15 @@ I am a...
 
 ## Latest Posts
 
-{%- for post in collections.posts reversed -%}
+{%- for post in collections.Posts reversed -%}
 {{newline}}
 <div class="responsive2column">
 <div class="column-1">
-{{ newline }}
-### [ {{ post.data.title }} ]( {{post.url}} )
 {%- if post.data.headerimage -%}
 {{newline}}
 <div class="image">
 {{newline}}
-!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivesmall)
+!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivemedium)
 {{newline}}
 </div>
 {{newline}}
@@ -68,16 +61,19 @@ I am a...
 {{newline}}
 </div>
 <div class="column-2">
-
+{{ newline }}
+### [ {{ post.data.title }} ]( {{post.url}} )
 {{newline}}
-
+<em>Tags:{{space}}
+{%- for tag in post.data.tags -%}
+{{ tag }},{{space}}
+{%- endfor -%}
+</em>
+{{newline}}
 > {{ post.data.description }}
-
 {{newline}}
-
 </div>
 </div>
-
 {{newline}}
 
 	{%- if forloop.index == 3 -%}
@@ -85,7 +81,6 @@ I am a...
 	{%- endif -%}
 {{newline}}
 {%- endfor -%}
-
 {{newline}}
 [More Posts →](/posts)
 
@@ -142,5 +137,14 @@ I am a...
 **[Twitter](https://twitter.com/RhinoDaDino "@RhinoDaDino • Twitter")**
 <a rel="me" href="https://mastodon.online/@luckierdodge" title="@luckierdodge • Mastodon.Online"><b>Mastodon</b></a>
 **[PixelFed](https://pixelfed.social/luckierdodge "@luckierdodge • PixelFed.Social")**
+
+</div>
+
+### Support
+
+<div class="link-capsule">
+
+**[Buy Me a Kilowatt](https://www.buymeacoffee.com/aVc18KuLq "Buy Me a Coffee")**
+**[Ko-fi](https://ko-fi.com/luckierdodge "Ko-fi")**
 
 </div>

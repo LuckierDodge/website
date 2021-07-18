@@ -21,7 +21,15 @@ description: ""
 		<style>
 			{{ css | cssmin | safe }}
 		</style>
-		<title>{{ title }}</title>
+		<title>{{ title | safe }}</title>
+		<!-- OpenGraph -->
+		<meta property="og:title" content="{{ title | safe }}" />
+		<meta property="og:description" content="{{ description | safe }}" />
+		{%- if headerimage -%}
+		<meta property="og:image" content="{{ headerimage }}" />
+		{%- else -%}
+		<meta property="og:image" content="/assets/images/profile-pic-icon-192.jpg" />
+		{%- endif -%}
 	</head>
 	<header>
 		<div class="big-link-capsule">
@@ -39,11 +47,13 @@ description: ""
 	</header>
 	<body>
 		<div class="main">
-			<h1>{{ title }}</h1>
+			<h1>{{ title | safe }}</h1>
 			{{ content | safe }}
 		</div>
 	</body>
 	<footer>
-		<p>Ryan D. Lewis | <a href="{{ '/aboutsite' }}">About this site</a> | <a href="/feed.xml">RSS Feed</a></p>
+	<div class="link-capsule">
+		<p>© 2021 <a href="{{ '/' }}">Ryan D. Lewis</a> <a href="{{ '/aboutsite' }}">About This Site</a></p>
+	</div>
 	</footer>
 </html>

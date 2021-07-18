@@ -20,13 +20,14 @@
   <subtitle>{{ metadata.subtitle }}</subtitle>
   <link href="{{ metadata.feedUrl }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
-  <updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
+  <updated>{{ collections.all | rssLastUpdatedDate }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
-  {%- for post in collections.posts %}
+  {%- for post in collections.Posts | reverse -%}
+  {%- if loop.index <= 5 -%}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
@@ -35,8 +36,10 @@
     <id>{{ absolutePostUrl }}</id>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
-  {%- endfor %}
-  {%- for post in collections.project %}
+  {%- endif -%}
+  {%- endfor -%}
+  {%- for post in collections.project | reverse -%}
+  {%- if loop.index <= 5 -%}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
@@ -45,5 +48,6 @@
     <id>{{ absolutePostUrl }}</id>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
-  {%- endfor %}
+  {%- endif -%}
+  {%- endfor -%}
 </feed>

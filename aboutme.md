@@ -3,14 +3,34 @@ layout: pagelayout.njk
 title: 🤝 About Me
 description: "A little bit about who I am, what I've done, and all that jazz."
 ---
+
+{% capture newline %}
+{% endcapture %}
+{% capture space %} {% endcapture %}
+
 A little introduction to who I am, what I've done, and all that jazz.
 
 ## 📚 Education
 
-The places I've studied and the pieces of paper I've gotten from it.
+<div class="responsive2column">
+<div class="column-1">
 
-* Bachelor's of Science in Computer Science, emphasizing in Computational Software, and Computational Mathematics from Northern Illinois University
-* Currently a Master's Student at NIU studying Computer Science
+### Masters of Science
+
+* **Computer Science**
+* _Northern Illinois University, 2021_
+
+</div>
+<div class="column-2">
+
+### Bachelors of Science
+
+* **Computer Science**, Emphasis: Computational Software
+* **Mathematics**, Emphasis: Computational Mathematics
+* _Northern Illinois University, 2019_
+
+</div>
+</div>
 
 ## 🏓 Extracurriculars
 
