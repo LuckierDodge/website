@@ -1,5 +1,5 @@
 ---
-tags: project
+tags: [project, Feed]
 title: 🔢 DFA_Evaluator
 projecturl: https://github.com/LuckierDodge/DFA_Evaluator
 description: "Evaluating whether or not a Deterministic Finite Automata accepts or rejects different words."

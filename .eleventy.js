@@ -2,12 +2,15 @@ const CleanCSS = require("clean-css");
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 module.exports = function(eleventyConfig) {
-	eleventyConfig.addFilter("cssmin", function(code) {
-		return new CleanCSS({}).minify(code).styles;
-	});
 	eleventyConfig.addPassthroughCopy("assets");
 	eleventyConfig.addPassthroughCopy({"favicon/*": "/"});
 	eleventyConfig.addPassthroughCopy("robots.txt");
+	eleventyConfig.addPassthroughCopy({
+		  "nord.css": "nord.css" 
+	});
+	eleventyConfig.addFilter("cssmin", function(code) {
+		return new CleanCSS({}).minify(code).styles;
+	});
 	eleventyConfig.setBrowserSyncConfig({
 		callbacks: {
 			ready: function(err, bs) {

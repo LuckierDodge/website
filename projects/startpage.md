@@ -1,5 +1,5 @@
 ---
-tags: project
+tags: [project, Feed]
 title: ▶ Start-Page
 projecturl: https://github.com/LuckierDodge/Start-Page
 description: "A simple landing page for chrome browsers."

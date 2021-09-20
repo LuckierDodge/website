@@ -5,7 +5,7 @@ date: 2021-02-23
 externalurl: "https://dev.to/luckierdodge/extending-an-old-school-programmable-keyboard-with-autohotkey-31fb-temp-slug-3842210?preview=afe4ec4a7ab6763b3713f9f19654cbe4b93fb10d89eee861c2c396998cdc8873ff3a6731808f09d8768b34fb92b4986af38d71bf4f53607a6964b1ee"
 description: "In this adventure, I explore the possibilities presented by an old-school programmable keyboard from the 90s, unearthed at a thrift store, and how it can still be useful and productive in the 2020's."
 headerimage: /assets/images/mck142pro/box.jpg
-tags: [Adventures_in_Tech, Posts]
+tags: [Adventures_in_Tech, Posts, Feed]
 ---
 
 ## So it Begins...

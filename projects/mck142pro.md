@@ -1,5 +1,5 @@
 ---
-tags: project
+tags: [project, Feed]
 title: ⌨ MCK142Pro.ahk
 projecturl: https://gist.github.com/LuckierDodge/2ed678e035306d7f3cd935a40b3b0028
 description: "An AutoHotKey script that I use to extend the functionality of an MCK142Pro programmable mechanical keyboard."

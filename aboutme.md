@@ -13,13 +13,14 @@ A little introduction to who I am, what I've done, and all that jazz.
 ## 📚 Education
 
 
-<div class="responsive2column">
-<div class="column-1 image super-center">
+<div class="responsive_wrapper">
+<div class="responsive_multi modal column2">
+<div class="column2 image super-center">
 
 ![Logo for University of Michigan](/assets/images/Michigan_Logo.png#responsivemedium)
 
 </div>
-<div class="column-2">
+<div class="column2">
 
 ### Masters of Science
 
@@ -28,20 +29,20 @@ A little introduction to who I am, what I've done, and all that jazz.
 
 </div>
 </div>
-
-<div class="responsive2column">
-<div class="column-1 image super-center">
+<div class="responsive_multi modal column2">
+<div class="column2 image super-center">
 
 ![Logo for Northern Illinois University](/assets/images/NIU_Logo.png#responsivemedium)
 
 </div>
-<div class="column-2">
+<div class="column2">
 
 ### Masters of Science
 
 * **Computer Science**
 * Thesis: "Log Analysis and Visualization of HPC Application Performance Data"
 * _Northern Illinois University, 2021_
+
 
 ### Bachelors of Science
 
@@ -50,6 +51,7 @@ A little introduction to who I am, what I've done, and all that jazz.
 * **Mobile Programming Certificate**
 * _Northern Illinois University, 2019_
 
+</div>
 </div>
 </div>
 

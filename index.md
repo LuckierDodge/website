@@ -2,21 +2,21 @@
 layout: "pagelayout.njk"
 title: "🏠 Home"
 description: "The humble internet home of Ryan D. Lewis: student, developer, researcher, roboticist, and computational mathematician."
+templateEngineOverride: njk,md
 ---
 
-{% capture newline %}
-{% endcapture %}
-{% capture space %} {% endcapture %}
+{% set newline = "\n" %}
+{% set space = " " %}
 
-<div class="responsive2column">
+<div class="responsive_multi modal">
 
-<div class="column-1 image super-center">
+<div class="column2 image super-center">
 
 ![Profile photo](/assets/images/Voxel_Profile.png#responsivemedium)
 
 </div>
 
-<div class="column-2">
+<div class="column2">
 
 👋 Hello, and welcome to my humble internet home!
 
@@ -45,22 +45,28 @@ I am a...
 
 ## Latest Posts
 
-{%- for post in collections.Posts reversed -%}
+{%- for post in collections.Posts | reverse -%}
+{%- if loop.index <= 4 -%}
+{%- if loop.index0 % 2 == 0 -%}
 {{newline}}
-<div class="responsive2column">
-<div class="column-1">
+<div class="responsive_wrapper">
+{{newline}}
+{%- endif -%}
+{{newline}}
+<div class="responsive_multi modal column2">
+<div class="column2">
 {%- if post.data.headerimage -%}
 {{newline}}
 <div class="image">
 {{newline}}
-!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivemedium)
+[!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivemedium)]({{post.url}})
 {{newline}}
 </div>
 {{newline}}
 {%- endif -%}
 {{newline}}
 </div>
-<div class="column-2">
+<div class="column2">
 {{ newline }}
 ### [ {{ post.data.title }} ]( {{post.url}} )
 {{newline}}
@@ -76,10 +82,13 @@ I am a...
 </div>
 {{newline}}
 
-	{%- if forloop.index == 3 -%}
-		{%- break -%}
-	{%- endif -%}
 {{newline}}
+{%- if (loop.index0 % 2 == 1) or loop.last -%}
+{{newline}}
+</div>
+{{newline}}
+{%- endif -%}
+{%- endif -%}
 {%- endfor -%}
 {{newline}}
 [More Posts →](/posts)
@@ -88,18 +97,32 @@ I am a...
 
 ## Latest Projects
 
-{%- for project in collections.project reversed -%}
+{%- for project in collections.project | reverse -%}
+{%- if loop.index <= 4 -%}
+{%- if loop.index0 % 2 == 0 -%}
 {{newline}}
+<div class="responsive_wrapper">
+{{newline}}
+{%- endif -%}
+{{newline}}
+<div class="modal column2">
+{{newline}}
+
 ### [ {{ project.data.title }} ]( {{project.url}} )
 
 {{newline}}
 
 > {{ project.data.description }}
 
-	{%- if forloop.index == 3 -%}
-		{%- break -%}
-	{%- endif -%}
 {{newline}}
+</div>
+{{newline}}
+{%- if (loop.index0 % 2 == 1) or loop.last -%}
+{{newline}}
+</div>
+{{newline}}
+{%- endif -%}
+{%- endif -%}
 {%- endfor -%}
 
 {{newline}}
@@ -108,6 +131,9 @@ I am a...
 ---
 
 ## Links
+
+<div class="responsive_wrapper">
+<div class="modal column2">
 
 <div class="link-capsule">
 
@@ -146,5 +172,9 @@ I am a...
 
 **[Buy Me a Kilowatt](https://www.buymeacoffee.com/aVc18KuLq "Buy Me a Coffee")**
 **[Ko-fi](https://ko-fi.com/luckierdodge "Ko-fi")**
+
+</div>
+
+</div>
 
 </div>
