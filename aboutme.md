@@ -10,7 +10,6 @@ description: "A little bit about who I am, what I've done, and all that jazz."
 
 A little introduction to who I am, what I've done, and all that jazz.
 
-## 📚 Education
 
 
 <div class="responsive_wrapper">
@@ -22,10 +21,12 @@ A little introduction to who I am, what I've done, and all that jazz.
 </div>
 <div class="column2">
 
+## University of Michigan
+
 ### Masters of Science
 
 * **Robotics**
-* _University of Michigan, 2023_
+* 2023
 
 </div>
 </div>
@@ -37,11 +38,13 @@ A little introduction to who I am, what I've done, and all that jazz.
 </div>
 <div class="column2">
 
+## Northern Illinois University
+
 ### Masters of Science
 
 * **Computer Science**
 * Thesis: "Log Analysis and Visualization of HPC Application Performance Data"
-* _Northern Illinois University, 2021_
+* 2021
 
 
 ### Bachelors of Science
@@ -49,33 +52,15 @@ A little introduction to who I am, what I've done, and all that jazz.
 * **Computer Science**, Emphasis: Computational Software
 * **Mathematics**, Emphasis: Computational Mathematics
 * **Mobile Programming Certificate**
-* _Northern Illinois University, 2019_
+* 2019
 
 </div>
 </div>
 </div>
 
-## 🏓 Extracurriculars
 
-What I did at school while I wasn't studying.
-
-* NIU Presidential Scholar and University Honors Student.
-* PROMISE Scholar.
-* Member of the Lambda Sigma National Sophomore Honors Society.
-* Four years as the Lead Programmer for NIU's Mars Rover Team, one of which I was also the Team President for.
-* 3 years as a member of the NIU Robotics Team
-
-## 🔬 Research Career
-
-If you're looking for the publications and presentations I've gotten out of these efforts, [look no further](/pubs).
-
-* 2 semesters as a Freshman working on my first research experience in NIU's amazing [Research Rookies](http://www.niu.edu/engagedlearning/undergraduate-research/research-rookies/index.shtml) program. Explored Photogrammetry under [Dr. Michael Papka](http://papka.alcf.anl.gov/) in the [Data, Devices, and Interactions Laboratory (ddiLab)](http://ddilab.cs.niu.edu).
-* Another 2 semesters as a Sophomore in the same lab, now as a Research Rookies Peer Mentor. This time I explored 3D Printing solutions of complex brain structures.
-* (If you're curious, you can check out the blog for those 4 semesters, forever preserved in it's young, innocent state on this [WordPress site](https://ryanlewisresearchrookies.wordpress.com/)).
-* A semester in the ddiLab with a PROMISE scholar's grant, exploring interactions between 3D printing, muscle sensing, and VR.
-* 2 semesters as an undergraduate research aide in the ddiLab, working with the [Array of Things](https://arrayofthings.github.io/) Dataset, PostgreSQL, Virtual Reality, and 3D printing. (Even got two pieces in an art exhibit, somehow!)
-* 2 years at the Argonne Leadership Computing Facility doing performance log analysis and visualization for their Leadership Supercomputers (mostly Mira and Theta), while also working as a Graduate Research Assistant in the ddiLab.
-* 2 years in Argonne's CELS directorate working on Self-Directing Laboratories and Autonomous Discovery, first as an independent study project and then as a visiting student and research aide.
+<div class="responsive_multi">
+<div class="column2 modal">
 
 ## 🏢 Internships and Work Experience
 
@@ -93,6 +78,41 @@ A winding path to figuring out what I want to be when I grow up, chronicled.
 * Became a Graduate Research Assistant in the ddiLab, with a Visiting Student appointment continuing my work at the ALCF.
 * Returned to the ALCF the following summer, and then spent a final year as a Graduate RA in the ddiLab.
 
+</div>
+<div class="column2 modal">
+
+## 🔬 Research Career
+
+If you're looking for the publications and presentations I've gotten out of these efforts, [look no further](/pubs).
+
+* 2 semesters as a Freshman working on my first research experience in NIU's amazing [Research Rookies](http://www.niu.edu/engagedlearning/undergraduate-research/research-rookies/index.shtml) program. Explored Photogrammetry under [Dr. Michael Papka](http://papka.alcf.anl.gov/) in the [Data, Devices, and Interactions Laboratory (ddiLab)](http://ddilab.cs.niu.edu).
+* Another 2 semesters as a Sophomore in the same lab, now as a Research Rookies Peer Mentor. This time I explored 3D Printing solutions of complex brain structures.
+* (If you're curious, you can check out the blog for those 4 semesters, forever preserved in it's young, innocent state on this [WordPress site](https://ryanlewisresearchrookies.wordpress.com/)).
+* A semester in the ddiLab with a PROMISE scholar's grant, exploring interactions between 3D printing, muscle sensing, and VR.
+* 2 semesters as an undergraduate research aide in the ddiLab, working with the [Array of Things](https://arrayofthings.github.io/) Dataset, PostgreSQL, Virtual Reality, and 3D printing. (Even got two pieces in an art exhibit, somehow!)
+* 2 years at the Argonne Leadership Computing Facility doing performance log analysis and visualization for their Leadership Supercomputers (mostly Mira and Theta), while also working as a Graduate Research Assistant in the ddiLab.
+* 2 years in Argonne's CELS directorate working on Self-Directing Laboratories and Autonomous Discovery, first as an independent study project and then as a visiting student and research aide.
+
+
+</div>
+</div>
+
+<div class="responsive_multi">
+<div class="column2 modal">
+
+## 🏓 Extracurriculars
+
+What I did at school while I wasn't studying.
+
+* NIU Presidential Scholar and University Honors Student.
+* PROMISE Scholar.
+* Member of the Lambda Sigma National Sophomore Honors Society.
+* Four years as the Lead Programmer for NIU's Mars Rover Team, one of which I was also the Team President for.
+* 3 years as a member of the NIU Robotics Team
+
+</div>
+<div class="column2 modal">
+
 ## 🧡 Life
 
 Ya know, that thing that I definitely have.
@@ -103,3 +123,6 @@ Ya know, that thing that I definitely have.
 * 🏠 Amatuer [Homelabber](https://www.reddit.com/r/homelab/)
 * 🤖 3D Printer Enthusiast (criminally, there's no emoji for a 3D printer).
 * 📝 Book Worm, Writer, and Programmer
+
+</div>
+</div>
