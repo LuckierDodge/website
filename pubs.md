@@ -13,6 +13,7 @@ A curated list of papers and presentations I've contributed to/given. Feel free 
 
 Published papers I've contributed to.
 
+* [Master's Thesis: Log Analysis and Visualization of HPC Application Performance Data](https://ark.ryandlewis.dev/index.php/s/DLkZg2aoig5Y79N): Can be accessed with the password _cXpyj5A536_
 * [Log-based Identification, Classification, and Behavior Prediction of HPC applications](https://github.com/HPCSYSPROS/Workshop20/tree/master/Log-based_Identification_classification_and_behavior_prediction_of_HPC_applications): Accepted to the SC20 Conference SIGHPC Systems Professionals Workshop (aka HPCSYSPROS20), November 2020.
 * [Characterization and Identification of HPC Applications at Leadership Computing Facility](https://dl.acm.org/doi/abs/10.1145/3392717.3392774): Published in _ICS '20: Proceedings of the 34th ACM International Conference on Supercomputing_, June 2020.
 
