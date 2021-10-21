@@ -20,20 +20,7 @@ templateEngineOverride: njk,md
 
 👋 Hello, and welcome to my humble internet home!
 
-I am a...
-
-
->Student
-
->Developer
-
->Researcher
-
->Roboticist
-
->Computational Mathematician
-
-...currently studying and working at the University of Michigan and Argonne National Laboratory.
+I am a graduate student, developer, and roboticist currently studying at the University of Michigan and working at [Mcity](https://mcity.umich.edu/) and [Argonne National Laboratory](https://www.anl.gov).
 
 [Learn more about me →](/aboutme)
 
@@ -41,7 +28,6 @@ I am a...
 
 </div>
 
----
 
 ## Latest Posts
 
@@ -54,10 +40,10 @@ I am a...
 {%- endif -%}
 {{newline}}
 <div class="responsive_multi modal column2">
-<div class="column2">
+<div class="column2 super-center">
 {%- if post.data.headerimage -%}
 {{newline}}
-<div class="image">
+<div class="image super-center">
 {{newline}}
 [!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivemedium)]({{post.url}})
 {{newline}}
@@ -93,7 +79,6 @@ I am a...
 {{newline}}
 [More Posts →](/posts)
 
----
 
 ## Latest Projects
 
@@ -128,7 +113,6 @@ I am a...
 {{newline}}
 [More Projects →](/projects)
 
----
 
 ## Links
 
