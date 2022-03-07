@@ -7,6 +7,8 @@ headerimage: https://res.cloudinary.com/practicaldev/image/fetch/s--1feip6b4--/c
 tags: [Dev, Posts, Quick_Tech_Tips, Feed]
 ---
 
+_Edit: It's come to my attention that, since I figured out this workaround back when WSL2 and thus Docker's WSL2 backend were new, Docker Desktop for Windows has added support for using Docker from within your WSL2 distro. This obviates the need to install Docker within a WSL2 distro in most cases. But if you find yourself in a position where you can't or don't want to use the Docker Desktop support, read on._
+
 Say you want to run a Linux environment on a Windows machine, and in that environment one of the things you want to do is make use of docker containers. Here's the quick and dirty way to get that set up:
 
 ## Install WSL
