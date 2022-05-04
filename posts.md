@@ -10,7 +10,54 @@ templateEngineOverride: njk,md
 
 Thoughts on code, robots, and life, delivered at random.
 
-## Adventures in Tech Series
+## _Overthought_ Series
+
+{%- for post in collections.Overthought | reverse -%}
+{%- if loop.index0 % 2 == 0 -%}
+{{newline}}
+<div class="responsive_wrapper">
+{{newline}}
+{%- endif -%}
+{{newline}}
+<div class="responsive_multi modal column2">
+<div class="column2">
+{{ newline }}
+{%- if post.data.headerimage -%}
+<div class="image">
+{{newline}}
+[!["{{post.data.title}}" Header Image]({{post.data.headerimage}}#responsivemedium)]({{post.url}})
+{{newline}}
+</div>
+{{newline}}
+{%- endif -%}
+{{newline}}
+</div>
+<div class="column2">
+{{newline}}
+### [ {{ post.data.title }} ]( {{post.url}} )
+{{newline}}
+<em>Tags:{{space}}
+{%- for tag in post.data.tags -%}
+{{ tag }},{{space}}
+{%- endfor -%}
+</em>
+{{newline}}
+> {{ post.data.description }}
+{{newline}}
+</div>
+</div>
+{{newline}}
+{%- if (loop.index0 % 2 == 1) or loop.last -%}
+{{newline}}
+</div>
+{{newline}}
+{%- endif -%}
+{%- endfor -%}
+
+{{newline}}
+
+
+## _Adventures in Tech_ Series
 
 {%- for post in collections.Adventures_in_Tech | reverse -%}
 {%- if loop.index0 % 2 == 0 -%}
