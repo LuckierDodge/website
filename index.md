@@ -62,7 +62,7 @@ I am a graduate student, developer, and roboticist currently studying at the Uni
 {%- endfor -%}
 </em>
 {{newline}}
-> {{ post.data.description }}
+{{ post.data.description }}
 {{newline}}
 </div>
 </div>
@@ -97,7 +97,7 @@ I am a graduate student, developer, and roboticist currently studying at the Uni
 
 {{newline}}
 
-> {{ project.data.description }}
+{{ project.data.description }}
 
 {{newline}}
 </div>

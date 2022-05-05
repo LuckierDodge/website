@@ -10,6 +10,8 @@
 	--plain-text: var(--nord6);
 	--selection: var(--nord2);
 	--header: var(--nord8);
+	--subheader: var(--nord7);
+	--subsubheader: var(--nord14);
 	--capsule: var(--nord8);
 	--capsule-hover: var(--nord14);
 	--link: var(--nord8);
@@ -94,7 +96,10 @@ h1 {
 	color: var(--header);
 }
 h2 {
-	color: var(--header);
+	color: var(--subheader);
+}
+h3 {
+	color: var(--subsubheader);
 }
 a:link {
 	color: var(--link);
@@ -170,6 +175,15 @@ code {
 	padding: 1px;
 	background-color: var(--modal-background);
 	color: var(--plain-text);
+}
+
+blockquote {
+	padding: 10px;
+	background-color: var(--modal-background);
+	color: var(--plain-text);
+	border: 5px solid var(--border-color);
+	border-radius: 16px;
+	overflow-x: auto;
 }
 
 /* Images */
