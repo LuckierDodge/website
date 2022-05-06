@@ -2,6 +2,7 @@
 layout: devlayout.njk
 title: How to Install and Use Docker in WSL2
 externalurl: https://dev.to/luckierdodge/how-to-install-and-use-docker-in-wsl2-217l
+date: 2022-03-06
 description: "A quick tech tip for installing and using Docker in WSL2."
 headerimage: https://res.cloudinary.com/practicaldev/image/fetch/s--1feip6b4--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qb7uf53w3fnv7t0pzfsw.jpg
 tags: [Dev, Posts, Quick_Tech_Tips, Feed]
