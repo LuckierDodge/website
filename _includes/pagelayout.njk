@@ -35,6 +35,15 @@ description: ""
 		{%- else -%}
 		<meta property="og:image" content="https://ryandlewis.dev/assets/images/profile-pic-icon-192.jpg" />
 		{%- endif -%}
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="{{ title | safe }}" />
+		<meta name="twitter:description" content="{{description | safe}}" />
+		{%- if headerimage -%}
+		<meta name="twitter:image" content="https://ryandlewis.dev{{ headerimage }}" />
+		{%- else -%}
+		<meta name="twitter:image" content="https://ryandlewis.dev/assets/images/profile-pic-icon-192.jpg" />
+		{%- endif -%}
 	</head>
 	<header>
 		<div class="big-link-capsule">
