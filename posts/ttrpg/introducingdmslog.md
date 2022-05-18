@@ -1,6 +1,6 @@
 ---
 layout: postlayout.njk
-title: "Introducing \"DM's Log: Supplemental\""
+title: "Introducing DM's Log: Supplemental"
 date: 2022-05-05
 externalurl: ""
 description: "A quick introduction to a new series I'm starting, recounting my adventures DMing D&D games for friends."
