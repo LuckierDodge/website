@@ -20,18 +20,20 @@ description: ""
 		<link rel="manifest" href="/site.webmanifest">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 		<style>
 			{{ css | cssmin | safe }}
 		</style>
 		<title>{{ title | safe }}</title>
 		<!-- OpenGraph -->
+		<meta property="og:site_name" content="Ryan D. Lewis's Website" />
 		<meta property="og:title" content="{{ title | safe }}" />
 		<meta property="og:description" content="{{ description | safe }}" />
+		<meta property="og:url" content="https://ryandlewis.dev{{ page.url }}" />
 		{%- if headerimage -%}
-		<meta property="og:image" content="{{ headerimage }}" />
+		<meta property="og:image" content="https://ryandlewis.dev{{ headerimage }}" />
 		{%- else -%}
-		<meta property="og:image" content="/assets/images/profile-pic-icon-192.jpg" />
+		<meta property="og:image" content="https://ryandlewis.dev/assets/images/profile-pic-icon-192.jpg" />
 		{%- endif -%}
 	</head>
 	<header>
