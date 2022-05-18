@@ -31,6 +31,10 @@ body {
 	max-width: 100em;
 	margin: auto;
 }
+.reader {
+	max-width: 50em;
+	margin: auto;
+}
 .modal {
 	background-color: var(--modal-background);
 	margin: 1%;

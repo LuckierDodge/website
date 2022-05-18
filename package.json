@@ -25,6 +25,8 @@
   },
   "dependencies": {
     "clean-css": "^5.2.2",
+    "eleventy-plugin-footnotes": "^0.10.0",
+    "markdown-it-footnote": "^3.0.3",
     "nord": "^0.2.1"
   }
 }

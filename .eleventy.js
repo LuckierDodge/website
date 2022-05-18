@@ -1,12 +1,14 @@
 const CleanCSS = require("clean-css");
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const footnotes = require('eleventy-plugin-footnotes')
+
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("assets");
 	eleventyConfig.addPassthroughCopy({"favicon/*": "/"});
 	eleventyConfig.addPassthroughCopy("robots.txt");
 	eleventyConfig.addPassthroughCopy({
-		  "nord.css": "nord.css" 
+		  "nord.css": "nord.css"
 	});
 	eleventyConfig.addFilter("cssmin", function(code) {
 		return new CleanCSS({}).minify(code).styles;
@@ -27,9 +29,11 @@ module.exports = function(eleventyConfig) {
 		}
 	});
 	eleventyConfig.addPlugin(pluginRss);
-	//markdown-it-anchor config
+	eleventyConfig.addPlugin(footnotes, { /* … */ })
+
 	const markdownit = require("markdown-it");
 	const markdownitanchor = require("markdown-it-anchor");
-	const markdownlib = markdownit({ html: true }).use(markdownitanchor);
+	const markdownitfootnote = require("markdown-it-footnote");
+	const markdownlib = markdownit({ html: true, breaks: true, linkify: true }).use(markdownitanchor).use(markdownitfootnote);
 	eleventyConfig.setLibrary("md", markdownlib);
 };
