@@ -1,5 +1,5 @@
 ---
-layout: postlayout.njk
+layout: dmsloglayout.njk
 title: "Introducing DM's Log: Supplemental"
 date: 2022-05-05
 externalurl: ""

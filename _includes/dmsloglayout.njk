@@ -1,0 +1,26 @@
+---
+layout: pagelayout.njk
+---
+
+<div class="reader">
+
+	<a href="/posts">⬆ Back to Posts</a>
+
+	{% if headerimage %}
+		<div class="image">
+			<img src="{{ headerimage }}#responsiveimage" alt="{{ alt }}">
+		</div>
+	{% endif %}
+
+	{{ content | safe }}
+
+<h2> Want updates on the latest DM's Logs? </h2>
+
+<div class="link-capsule">
+    <a href="https://twitter.com/TheLuckierDM" title="@TheLuckierDM • Twitter"><b>Twitter</b></a>
+    <a href="https://ryandlewis.dev/feed.xml" title="RSS Feed"><b>RSS Feed</b></a>
+    <a href="https://mastodon.online/@luckierdodge" title="@luckierdodge • Mastodon.Online"><b>Mastodon</b></a>
+    <a href="https://ryandlewis.dev/support"><b>Support</b></a>
+</div>
+
+</div>

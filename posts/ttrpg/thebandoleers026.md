@@ -1,5 +1,5 @@
 ---
-layout: postlayout.njk
+layout: dmsloglayout.njk
 title: "The Bandoleers Session 026"
 date: 2022-05-18
 externalurl: ""

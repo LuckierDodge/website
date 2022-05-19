@@ -144,7 +144,8 @@ I am a graduate student, developer, and roboticist currently studying at the Uni
 
 <!-- **[]()** -->
 **[Dev.to](https://dev.to/luckierdodge "@luckierdodge • Dev")**
-**[Twitter](https://twitter.com/RhinoDaDino "@RhinoDaDino • Twitter")**
+**[Twitter | Personal](https://twitter.com/RhinoDaDino "@RhinoDaDino • Twitter")**
+**[Twitter | TTRPG](https://twitter.com/TheLuckierDM "@TheLuckierDM • Twitter")**
 <a rel="me" href="https://mastodon.online/@luckierdodge" title="@luckierdodge • Mastodon.Online"><b>Mastodon</b></a>
 **[PixelFed](https://pixelfed.social/luckierdodge "@luckierdodge • PixelFed.Social")**
 **[PolyWork](https://timeline.ryandlewis.dev "@luckierdodge • PolyWork")**
