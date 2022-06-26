@@ -1,7 +1,7 @@
 const CleanCSS = require("clean-css");
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const footnotes = require('eleventy-plugin-footnotes')
+const footnotes = require('eleventy-plugin-footnotes');
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("assets");
@@ -30,6 +30,10 @@ module.exports = function(eleventyConfig) {
 	});
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(footnotes, { /* … */ })
+	eleventyConfig.setLiquidOptions({
+		dynamicPartials: false,
+		strictFilters: false, // renamed from `strict_filters` in Eleventy 1.0
+	});
 
 	const markdownit = require("markdown-it");
 	const markdownitanchor = require("markdown-it-anchor");
