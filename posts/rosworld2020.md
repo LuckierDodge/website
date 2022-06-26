@@ -5,7 +5,7 @@ date: 2020-11-12
 externalurl: "https://dev.to/luckierdodge/personal-notes-from-ros-world-2020-2e04"
 description: "I attended the Robotic Operating System's [ROS World 2020](https://roscon.ros.org/world/2020/) convention today. I quite enjoyed it! To keep myself focused during the event, I tried to write some comprehensive notes. To keep myself entertained, I wrote them as if somebody else would be reading them."
 headerimage: "https://roscon.ros.org/world/2020/img/ROSWorld2020.png"
-tags: [Dev, Posts, Feed]
+tags: [Dev, post, feed]
 ---
 
 > _Update: You can find all of the videos from ROS World 2020 [here](https://vimeo.com/showcase/rosworld2020)._
@@ -117,7 +117,7 @@ But it occurred to me that someone else might find these useful in some way, esp
 * ARM ad
 	* "5th wave of computing"
 	* Buzzwordy buzzwords are buzzwording.
-	
+
 ## 🏫 Time for Class
 * If anyone wants my notes on Bezier Curves, let me know 😉
 * Missed: networking break (meh), "MSeg: Achieving Generality and Robustness in Semantic Segmentation".

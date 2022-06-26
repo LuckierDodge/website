@@ -5,7 +5,7 @@ date: 2022-05-18
 externalurl: ""
 description: "In which the Bandoleers begin their journey to the Westerwatch."
 headerimage: "/assets/images/ttrpg/Voxel-Ryan-DM.png"
-tags: [Posts, Feed, DMs_Log]
+tags: [post, feed, dms_log]
 ---
 
 ## DM's Log: Supplemental...Session 026

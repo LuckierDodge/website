@@ -1,5 +1,5 @@
 ---
-tags: [project, Feed]
+tags: [project, feed]
 title: 🔢 NFA_Evaluator
 projecturl: https://github.com/LuckierDodge/NFA_Evaluator
 description: "Evaluating whether or not a Nondeterministic Finite Automata accepts or rejects different words."

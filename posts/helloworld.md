@@ -5,14 +5,14 @@ date: 2020-06-23
 externalurl: "https://dev.to/luckierdodge/a-belated-hello-world-mjl"
 description: "👋 Hey Everyone! My name is Ryan D. Lewis, and I'm...not exactly new around here, but this is my first post! So allow me to introduce myself."
 headerimage: "https://res.cloudinary.com/practicaldev/image/fetch/s--zmXyGkC---/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/1c7s0qv33risbrmp2nrs.png"
-tags: [Dev, Posts, Feed]
+tags: [Dev, post, feed]
 ---
 
 # 👋 Hey Everyone!
 
 My name is Ryan D. Lewis, and I'm...not exactly new around here, but this is my first post! So allow me to introduce myself.
 
-## ✏ Education 
+## ✏ Education
 
 I'm currently a Master's Candidate in Computer Science, with a B.S. in Computer Science and Computational Mathematics, looking to eventually earn a PhD.
 

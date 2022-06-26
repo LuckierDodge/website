@@ -1,5 +1,5 @@
 ---
-tags: [project, Feed]
+tags: [project, feed]
 title: 🐋 dockerfiles
 projecturl: https://github.com/LuckierDodge/dockerfiles
 description: "A GitHub repo that contains the dockerfiles I use in my homelab."

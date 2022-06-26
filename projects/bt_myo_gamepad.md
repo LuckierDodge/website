@@ -1,5 +1,5 @@
 ---
-tags: [project, Feed]
+tags: [project, feed]
 title: 💪 BT_Myographic_Gamepad
 projecturl: https://github.com/LuckierDodge/BT_Myographic_Gamepad
 description: "Simple Arduino Code powering a muscle sensing gamepad controller."

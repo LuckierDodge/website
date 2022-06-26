@@ -212,6 +212,11 @@ img[src*="#responsiveimage"] {
   max-height: 1000px;
   height: auto;
 }
+img[src*="#responsiveheaderimage"] {
+  max-width: 80%;
+  max-height: 400px;
+  height: auto;
+}
 img[src*="#responsivemedium"] {
   max-width: 80%;
   max-height: 250px;

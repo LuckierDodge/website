@@ -31,7 +31,7 @@ I am a graduate student, developer, and roboticist currently studying at the Uni
 
 ## Latest Posts
 
-{%- for post in collections.Posts | reverse -%}
+{%- for post in collections.post | reverse -%}
 {%- if loop.index <= 4 -%}
 {%- if loop.index0 % 2 == 0 -%}
 {{newline}}

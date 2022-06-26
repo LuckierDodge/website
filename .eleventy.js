@@ -36,4 +36,17 @@ module.exports = function(eleventyConfig) {
 	const markdownitfootnote = require("markdown-it-footnote");
 	const markdownlib = markdownit({ html: true, breaks: true, linkify: true }).use(markdownitanchor).use(markdownitfootnote);
 	eleventyConfig.setLibrary("md", markdownlib);
+	eleventyConfig.addCollection("posts", function (collection) {
+  		const coll = collection.getFilteredByTag("post");
+
+		for(let i = 0; i < coll.length ; i++) {
+			const prevPost = coll[i-1];
+			const nextPost = coll[i + 1];
+
+			coll[i].data["prevPost"] = prevPost;
+			coll[i].data["nextPost"] = nextPost;
+		}
+
+  		return coll;
+	});
 };

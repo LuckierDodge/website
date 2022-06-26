@@ -12,7 +12,7 @@ Thoughts on code, robots, D&D, and life, delivered at random.
 
 ## DM's Log: Supplemental
 
-{%- for post in collections.DMs_Log | reverse -%}
+{%- for post in collections.dms_log | reverse -%}
 {%- if loop.index0 % 2 == 0 -%}
 {{newline}}
 <div class="responsive_wrapper">

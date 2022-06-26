@@ -5,7 +5,7 @@ date: 2022-06-25
 externalurl: ""
 description: "In which the Bandoleers breach and clear a keep from the top down."
 headerimage: "/assets/images/ttrpg/Voxel-Ryan-DM.png"
-tags: [Posts, Feed, DMs_Log]
+tags: [post, feed, dms_log]
 ---
 
 ## DM's Log: Supplemental...Session 027

@@ -1,5 +1,5 @@
 ---
-tags: [project, Feed]
+tags: [project, feed]
 title: 🌐 website
 projecturl: https://github.com/LuckierDodge/website
 description: "The repository for this very website!"

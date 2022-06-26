@@ -1,5 +1,5 @@
 ---
-tags: [project, Feed]
+tags: [project, feed]
 title: 🍎 iOS-Final-Project
 projecturl: https://github.com/LuckierDodge/iOS-Final-Project
 description: "Final Project for Advanced iOS Development, a kanban-style Taskboard using a tabbed view controller."
