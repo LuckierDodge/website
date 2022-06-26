@@ -8,7 +8,7 @@ headerimage: "/assets/images/ttrpg/Voxel-Ryan-DM.png"
 tags: [Posts, Feed, DMs_Log]
 ---
 
-## DM's Log: Supplemental...
+## DM's Log: Supplemental...Session 026
 
 _Date: 2022-05-12_
 
