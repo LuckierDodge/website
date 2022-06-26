@@ -105,7 +105,7 @@ Thoughts on code, robots, D&D, and life, delivered at random.
 
 ## Posts on [Dev](https://dev.to)
 
-{%- for post in collections.Dev | reverse -%}
+{%- for post in collections.dev | reverse -%}
 {%- if loop.index0 % 2 == 0 -%}
 {{newline}}
 <div class="responsive_wrapper">

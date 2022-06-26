@@ -58,7 +58,11 @@ I am a graduate student, developer, and roboticist currently studying at the Uni
 {{newline}}
 <em>Tags:{{space}}
 {%- for tag in post.data.tags -%}
-{{ tag }},{{space}}
+{%- if tag == post.data.tags[0] -%}
+{{ tag }}
+{%- else -%}
+,{{ space }} {{ tag }}
+{%- endif -%}
 {%- endfor -%}
 </em>
 {{newline}}

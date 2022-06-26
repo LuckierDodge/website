@@ -5,7 +5,7 @@ externalurl: https://dev.to/luckierdodge/how-to-install-and-use-docker-in-wsl2-2
 date: 2022-03-06
 description: "A quick tech tip for installing and using Docker in WSL2."
 headerimage: https://res.cloudinary.com/practicaldev/image/fetch/s--1feip6b4--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qb7uf53w3fnv7t0pzfsw.jpg
-tags: [Dev, post, Quick_Tech_Tips, feed]
+tags: [dev, post, quick_tech_tips, feed]
 ---
 
 _Edit: It's come to my attention that, since I figured out this workaround back when WSL2 and thus Docker's WSL2 backend were new, Docker Desktop for Windows has added support for using Docker from within your WSL2 distro. This obviates the need to install Docker within a WSL2 distro in most cases. But if you find yourself in a position where you can't or don't want to use the Docker Desktop support, read on._
