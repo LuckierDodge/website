@@ -4,7 +4,7 @@ title: A (Belated) Hello World!
 date: 2020-06-23
 externalurl: "https://dev.to/luckierdodge/a-belated-hello-world-mjl"
 description: "👋 Hey Everyone! My name is Ryan D. Lewis, and I'm...not exactly new around here, but this is my first post! So allow me to introduce myself."
-headerimage: "https://res.cloudinary.com/practicaldev/image/fetch/s--zmXyGkC---/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/1c7s0qv33risbrmp2nrs.png"
+headerimage: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2F1c7s0qv33risbrmp2nrs.png"
 tags: [dev, post, feed]
 ---
 

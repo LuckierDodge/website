@@ -89,12 +89,14 @@ A winding path to figuring out what I want to be when I grow up, chronicled.
 
 * Started at [Mcity](https://mcity.umich.edu/) as a part-time web developer
 
+### Professional
+
+- Started as a Robotics and Software Engineer at Argonne National Laboratory's [Rapid Prototyping Lab](https://rpl.cels.anl.gov/) in September of 2023.
+
 </div>
 <div class="column2 modal">
 
 ## 🔬 Research Career
-
-If you're looking for the publications and presentations I've gotten out of these efforts, [look no further](/pubs).
 
 ### Undergrad @ NIU
 

@@ -3,43 +3,43 @@
 :root {
 	--background: var(--nord0);
 	--modal-background: var(--nord1);
+	--modal-border: var(--nord1);
 	--modal-hover: var(--nord10);
-	--capsule-background: var(--nord2);
-	--capsule-hover: var(--nord14);
 	--image-background: var(--nord2);
 	--plain-text: var(--nord6);
 	--selection: var(--nord2);
 	--header: var(--nord8);
 	--subheader: var(--nord7);
 	--subsubheader: var(--nord14);
-	--capsule: var(--nord8);
-	--capsule-hover: var(--nord14);
 	--link: var(--nord8);
 	--link-visited: var(--nord9);
 	--link-hover-text: var(--nord14);
-	--border-color: var(--nord3);
+	--capsule: var(--nord8);
+	--capsule-background: var(--nord2);
+	--capsule-hover: var(--nord14);
+	--border-color: var(--nord1);
 	--shadow-color: var(--nord0);
 }
 
 body {
 	font-family: 'Space Mono', monospace;
-	background-color: var(--background);
+	background-image: linear-gradient(to bottom right, var(--background), black);
 	color: var(--plain-text);
 }
 .main {
-	width: 85%;
-	max-width: 100em;
+	width: 90%;
+	max-width: 120em;
 	margin: auto;
 }
 .reader {
-	max-width: 50em;
+	max-width: 75em;
 	margin: auto;
 }
 .modal {
 	background-color: var(--modal-background);
 	margin: 1%;
 	padding: 1%;
-	border: 5px solid var(--modal-background);
+	border: 5px solid var(--modal-border);
 	border-radius: 16px;
 }
 .modal:hover {
@@ -49,7 +49,6 @@ footer {
 	text-align: center;
 	color: var(--plain-text);
 	font-size: .8rem;
-	background-color: var(--background);
 	width: 100%;
 	margin: auto;
 	padding-top: 5%;
@@ -60,7 +59,6 @@ header {
 	text-align: center;
 	padding-left: -4%;
 	padding-right: -4%;
-	background-color: var(--background);
 	color: var(--plain-text);
 }
 .responsive_wrapper {
@@ -136,6 +134,7 @@ a:hover {
 	border-radius: 16px;
 }
 .link-capsule a:hover {
+	background-image: radial-gradient(var(--background), black);
 	border-color: var(--capsule-hover);
 	color: var(--capsule-hover);
 }
@@ -151,6 +150,7 @@ a:hover {
 	border-radius: 32px;
 }
 .big-link-capsule a:hover {
+	background-image: radial-gradient(var(--background), black);
 	border-color: var(--capsule-hover);
 	color: var(--capsule-hover);
 }
@@ -202,10 +202,11 @@ img {
 	border: 5px solid var(--border-color);
 	border-radius: 16px;
 	background-color: var(--image-background);
-	box-shadow: 5px 5px 2px var(--shadow-color);
+	/* box-shadow: 5px 5px 2px var(--shadow-color); */
 }
 img:hover {
-	box-shadow: 10px 10px 5px var(--shadow-color);
+	/* box-shadow: 10px 10px 5px var(--shadow-color); */
+	border-color: var(--modal-hover);
 }
 img[src*="#responsiveimage"] {
   max-width: 80%;

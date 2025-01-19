@@ -1,7 +1,7 @@
 ---
 layout: "pagelayout.njk"
 title: "🏠 Home"
-description: "The humble internet home of Ryan D. Lewis: student, developer, researcher, roboticist, and computational mathematician."
+description: "The humble internet home of Ryan D. Lewis, general Technomancer and well-rounded nerd."
 templateEngineOverride: njk,md
 ---
 
@@ -20,7 +20,7 @@ templateEngineOverride: njk,md
 
 👋 Hello, and welcome to my humble internet home!
 
-I am a graduate student, developer, and roboticist currently studying at the University of Michigan and working at [Mcity](https://mcity.umich.edu/) and [Argonne National Laboratory](https://www.anl.gov).
+I am a developer and roboticist currently working at [Argonne National Laboratory](https://www.anl.gov) as a [Rapid Prototyping Lab](https://rpl.cels.anl.gov/) Developer.
 
 [Learn more about me →](/aboutme)
 
@@ -152,7 +152,6 @@ I am a graduate student, developer, and roboticist currently studying at the Uni
 **[Twitter | TTRPG](https://twitter.com/TheLuckierDM "@TheLuckierDM • Twitter")**
 <a rel="me" href="https://mastodon.online/@luckierdodge" title="@luckierdodge • Mastodon.Online"><b>Mastodon</b></a>
 **[PixelFed](https://pixelfed.social/luckierdodge "@luckierdodge • PixelFed.Social")**
-**[PolyWork](https://timeline.ryandlewis.dev "@luckierdodge • PolyWork")**
 
 </div>
 
