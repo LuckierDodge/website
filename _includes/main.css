@@ -30,6 +30,12 @@ body {
 	width: 90%;
 	max-width: 120em;
 	margin: auto;
+	background-color: var(--background);
+	border: 5px solid var(--background);
+	border-radius: 16px;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-top: 2em;
 }
 .reader {
 	max-width: 75em;
@@ -37,21 +43,25 @@ body {
 }
 .modal {
 	background-color: var(--modal-background);
-	margin: 1%;
-	padding: 1%;
+	margin: 1em;
+	padding: 1em;
 	border: 5px solid var(--modal-border);
 	border-radius: 16px;
 }
 .modal:hover {
 	border: 5px solid var(--modal-hover);
 }
-footer {
+.page-footer {
 	text-align: center;
 	color: var(--plain-text);
 	font-size: .8rem;
 	width: 100%;
+	max-width: 75em;
 	margin: auto;
-	padding-top: 5%;
+	padding-top: 2em;
+}
+.Footnotes {
+	text-align: justify;
 }
 header {
 	margin: auto;

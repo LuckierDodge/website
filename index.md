@@ -147,11 +147,11 @@ I am a developer and roboticist currently working at [Argonne National Laborator
 <div class="link-capsule">
 
 <!-- **[]()** -->
+<a rel="me" href="https://mastodon.online/@luckierdodge" title="@luckierdodge • Mastodon.Online"><b>Mastodon</b></a>
+**[PixelFed](https://pixelfed.social/luckierdodge "@luckierdodge • PixelFed.Social")**
 **[Dev.to](https://dev.to/luckierdodge "@luckierdodge • Dev")**
 **[Twitter | Personal](https://twitter.com/RhinoDaDino "@RhinoDaDino • Twitter")**
 **[Twitter | TTRPG](https://twitter.com/TheLuckierDM "@TheLuckierDM • Twitter")**
-<a rel="me" href="https://mastodon.online/@luckierdodge" title="@luckierdodge • Mastodon.Online"><b>Mastodon</b></a>
-**[PixelFed](https://pixelfed.social/luckierdodge "@luckierdodge • PixelFed.Social")**
 
 </div>
 
